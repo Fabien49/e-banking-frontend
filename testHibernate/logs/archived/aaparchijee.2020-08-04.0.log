@@ -1,0 +1,450 @@
+2020-08-04 15:20:00,697 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 10064 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 15:20:00,713 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 15:20:00,715 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 15:20:14,229 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 14.517 seconds (JVM running for 16.214)
+2020-08-04 15:20:14,234 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 15:41:36,577 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 9396 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 15:41:36,582 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 15:41:36,585 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 15:41:46,630 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.798 seconds (JVM running for 12.196)
+2020-08-04 15:41:46,720 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 15:43:27,877 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 2124 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 15:43:27,881 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 15:43:27,882 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 15:43:40,800 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 13.659 seconds (JVM running for 14.978)
+2020-08-04 15:43:40,906 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 15:46:29,245 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 8016 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 15:46:29,255 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 15:46:29,258 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 15:46:39,130 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.698 seconds (JVM running for 12.02)
+2020-08-04 15:46:39,209 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:06:36,892 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 10680 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:06:36,906 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:06:36,908 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:06:46,220 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.001 seconds (JVM running for 11.324)
+2020-08-04 16:06:46,349 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:10:01,755 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 7076 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:10:01,759 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:10:01,761 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:10:11,351 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.348 seconds (JVM running for 11.662)
+2020-08-04 16:10:11,517 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:13:03,298 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 12692 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:13:03,302 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:13:03,304 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:13:12,341 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 9.87 seconds (JVM running for 11.442)
+2020-08-04 16:13:12,503 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:16:05,791 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 12496 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:16:05,795 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:16:05,796 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:16:15,548 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.42 seconds (JVM running for 11.782)
+2020-08-04 16:16:15,674 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+2020-08-04 16:16:15,676 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [restartedMain] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2020-08-04 16:16:15,686 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:816)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.main(TestHibernateApplication.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_r87w9xr8gnmm5vyjy0f0dwpbq]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:253)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:536)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.save(Unknown Source)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.run(TestHibernateApplication.java:95)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3171)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3686)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	... 45 common frames omitted
+2020-08-04 16:17:51,151 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 9908 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:17:51,157 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:17:51,159 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:18:00,755 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.292 seconds (JVM running for 11.573)
+2020-08-04 16:18:00,890 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+2020-08-04 16:18:00,892 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [restartedMain] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2020-08-04 16:18:00,904 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:816)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.main(TestHibernateApplication.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_r87w9xr8gnmm5vyjy0f0dwpbq]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:253)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:536)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.save(Unknown Source)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.run(TestHibernateApplication.java:95)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3171)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3686)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	... 45 common frames omitted
+2020-08-04 16:19:13,168 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 7252 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:19:13,172 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:19:13,174 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:19:22,551 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.18 seconds (JVM running for 11.443)
+2020-08-04 16:19:22,713 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:19:36,796 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 11276 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:19:36,810 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:19:36,826 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:19:46,205 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.153 seconds (JVM running for 11.746)
+2020-08-04 16:19:46,342 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+2020-08-04 16:19:46,345 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [restartedMain] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2020-08-04 16:19:46,356 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:816)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.main(TestHibernateApplication.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_r87w9xr8gnmm5vyjy0f0dwpbq]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:253)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:536)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.save(Unknown Source)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.run(TestHibernateApplication.java:95)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3171)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3686)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	... 45 common frames omitted
+2020-08-04 16:22:06,501 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 1600 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:22:06,505 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:22:06,507 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:22:15,903 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.204 seconds (JVM running for 11.555)
+2020-08-04 16:22:16,026 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+2020-08-04 16:22:16,028 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [restartedMain] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2020-08-04 16:22:16,039 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:816)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.main(TestHibernateApplication.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_r87w9xr8gnmm5vyjy0f0dwpbq]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:253)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:536)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.save(Unknown Source)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.run(TestHibernateApplication.java:95)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3171)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3686)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	... 45 common frames omitted
+2020-08-04 16:24:05,983 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 7260 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:24:05,988 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:24:05,989 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:24:15,822 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.57 seconds (JVM running for 12.563)
+2020-08-04 16:24:15,949 ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper [restartedMain] Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+2020-08-04 16:24:15,952 ERROR org.hibernate.internal.ExceptionMapperStandardImpl [restartedMain] HHH000346: Error during managed flush [org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2020-08-04 16:24:15,963 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:816)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:797)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.main(TestHibernateApplication.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [UK_r87w9xr8gnmm5vyjy0f0dwpbq]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:296)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:253)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:536)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:746)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:714)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:533)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:304)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:98)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.SurroundingTransactionDetectorMethodInterceptor.invoke(SurroundingTransactionDetectorMethodInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy99.save(Unknown Source)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.run(TestHibernateApplication.java:95)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:813)
+	... 10 common frames omitted
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:59)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:178)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3171)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3686)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:90)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:478)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:356)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1454)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:511)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3283)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2479)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:473)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:178)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:39)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:271)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:98)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:532)
+	... 28 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'Bernhard.R@univ.fr' for key 'UK_r87w9xr8gnmm5vyjy0f0dwpbq'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:175)
+	... 45 common frames omitted
+2020-08-04 16:26:56,512 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 12612 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:26:56,520 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:26:56,522 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:27:09,279 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 13.489 seconds (JVM running for 14.959)
+2020-08-04 16:27:09,678 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:28:19,302 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 10356 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:28:19,306 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:28:19,308 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:28:28,926 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.331 seconds (JVM running for 11.745)
+2020-08-04 16:28:29,044 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-04 16:30:04,116 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 5268 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-04 16:30:04,121 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-04 16:30:04,123 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-04 16:30:13,916 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 10.567 seconds (JVM running for 11.817)
+2020-08-04 16:30:14,074 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...

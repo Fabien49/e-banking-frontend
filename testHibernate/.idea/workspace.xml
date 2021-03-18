@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9515d800-7e19-417b-a3fc-3d1db475c7cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../escaladefriendsp6ocr/logs/archived/escaladefriendsp6ocr.2020-09-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gs-serving-web-content/complete/src/main/java/com/example/servingwebcontent/EtudiantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../image-gallery" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../last version 02-07-2020/escaladefriends.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_2_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/testHibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/.sonar_lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/class-mapping.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/findbugs-include.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/findbugs-result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/findbugs/annotations.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/findbugs/fb-contrib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/findbugs/findsecbugs-plugin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/findbugs/jsr305.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/report-task.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/activerules.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/analysis-warnings.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/analysis.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-14.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-15.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-16.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-17.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-18.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-20.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-23.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-24.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-29.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-31.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-32.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-33.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-34.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-35.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-36.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-37.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-38.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-39.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-40.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-41.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-42.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-43.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/changesets-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-1.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-14.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-15.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-16.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-17.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-18.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-20.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-23.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-24.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-29.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-30.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-31.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-32.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-33.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-34.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-35.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-36.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-37.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-38.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-39.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-40.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-41.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-42.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-43.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/component-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/context-props.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-14.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-15.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-16.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-17.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-18.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-20.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-23.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-24.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/coverages-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-31.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-32.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-33.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-34.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-35.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-36.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-39.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-40.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-41.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-42.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-43.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/duplications-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-29.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-33.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-34.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-35.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-36.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-39.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-41.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-42.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/issues-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-14.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-15.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-16.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-17.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-18.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-20.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-23.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-24.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-29.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-30.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-31.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-32.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-33.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-34.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-35.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-36.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-37.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-38.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-39.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-40.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-41.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-42.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-43.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/metadata.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/source-9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-14.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-15.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-16.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-17.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-18.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-20.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-23.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-24.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/symbols-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-10.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-11.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-12.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-13.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-14.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-15.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-16.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-17.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-18.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-19.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-2.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-20.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-21.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-22.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-23.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-24.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-25.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-29.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-3.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-30.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-31.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-32.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-33.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-34.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-35.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-36.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-37.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-38.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-39.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-4.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-40.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-41.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-42.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-43.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-5.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-6.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-7.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-8.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-9.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/apparchijee.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/aaparchijee.2020-06-10.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/aaparchijee.2020-06-14.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/aaparchijee.2020-07-30.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/aaparchijee.2020-08-03.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/aaparchijee.2020-08-04.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/archived/aaparchijee.2020-08-05.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/TestHibernateApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/controller/CoursController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/controller/EleveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/controller/ProfsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/controller/SalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/handler/UserAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/model/Cours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/model/Eleve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/model/Profs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/model/Salle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/repository/CoursRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/repository/EleveRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/repository/ProfsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/repository/SalleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/service/EmployeeServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/service/EmployeeServiceInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/macrosoftas/testHibernate/service/UtilisateurService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/error/4xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/public/error/5xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/jquery-3.5.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-overrides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/registration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/status-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/sweet-alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/db/db_structure.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/db/insert_roles.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/font/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/userlogin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ban.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ban2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ban3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ban4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ban5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ban6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/SweetAlert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/ie8-responsive-file-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.7.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/sweet-alert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/access-denied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/headerinc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/style.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fPHidvHiddJQ2NYcnFWJsngFIM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../escaladefriendsp6ocr" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.macrosoftas.testHibernate.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestHibernateApplication">
+    <configuration name="ArchiJEEApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.macrosoftas.archijee.ArchiJEEApplication" />
+      <module name="testHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.macrosoftas.archijee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHibernateApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.macrosoftas.testHibernate.TestHibernateApplication" />
+      <module name="testHibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.macrosoftas.testHibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestHibernateApplication" />
+        <item itemvalue="Application.ArchiJEEApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9515d800-7e19-417b-a3fc-3d1db475c7cb" name="Default Changelist" comment="" />
+      <created>1596112935768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596112935768</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596696575603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596696575603" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1596649129005">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596649129005" />
+    <state x="621" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596463357578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596463357578" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596551288341">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596551288341" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599485525225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599485525225" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596717147668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596717147668" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596717147668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596717147668" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596717147668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596717147668" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596717147668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596717147668" />
+  </component>
+</project>

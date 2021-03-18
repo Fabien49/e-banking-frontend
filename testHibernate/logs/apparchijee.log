@@ -1,0 +1,54 @@
+2020-08-06 09:11:41,068 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 3720 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-06 09:11:41,107 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-06 09:11:41,118 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-06 09:11:50,533 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.macrosoftas.testHibernate.model.Eleve.likedCourses in com.macrosoftas.testHibernate.model.Cours.likes
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1745)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:576)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1083)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:853)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.macrosoftas.testHibernate.TestHibernateApplication.main(TestHibernateApplication.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.AnnotationException: mappedBy reference an unknown target entity property: com.macrosoftas.testHibernate.model.Eleve.likedCourses in com.macrosoftas.testHibernate.model.Cours.likes
+	at org.hibernate.cfg.annotations.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:785)
+	at org.hibernate.cfg.annotations.CollectionBinder$1.secondPass(CollectionBinder.java:736)
+	at org.hibernate.cfg.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:54)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1696)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1664)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:287)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:904)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:935)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1741)
+	... 21 common frames omitted
+2020-08-06 09:14:17,416 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 8112 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-06 09:14:17,421 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-06 09:14:17,423 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-06 09:14:32,557 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 16.118 seconds (JVM running for 18.076)
+2020-08-06 09:14:33,192 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...
+2020-08-06 09:18:17,013 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Starting TestHibernateApplication on FABPC with PID 2692 (C:\Users\FaB\Git\testHibernate\target\classes started by FaB PC in C:\Users\FaB\Git\testHibernate)
+2020-08-06 09:18:17,019 DEBUG com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-08-06 09:18:17,020 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] The following profiles are active: prod
+2020-08-06 09:18:32,046 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Started TestHibernateApplication in 15.934 seconds (JVM running for 17.544)
+2020-08-06 09:18:32,471 INFO com.macrosoftas.testHibernate.TestHibernateApplication [restartedMain] Start Archi Application ...

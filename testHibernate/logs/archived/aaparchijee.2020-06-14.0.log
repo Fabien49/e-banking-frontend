@@ -1,0 +1,5 @@
+2020-06-14 21:10:28,227 INFO com.macrosoftas.archijee.ArchiJEEApplication [restartedMain] Starting ArchiJEEApplication on FABPC with PID 5876 (C:\Users\FaB\Git\OLDarchijavajeespringboot\target\classes started by FaB PC in C:\Users\FaB\Git\OLDarchijavajeespringboot)
+2020-06-14 21:10:28,270 DEBUG com.macrosoftas.archijee.ArchiJEEApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2020-06-14 21:10:28,270 INFO com.macrosoftas.archijee.ArchiJEEApplication [restartedMain] The following profiles are active: prod
+2020-06-14 21:10:46,661 INFO com.macrosoftas.archijee.ArchiJEEApplication [restartedMain] Started ArchiJEEApplication in 19.29 seconds (JVM running for 21.265)
+2020-06-14 21:10:46,669 INFO com.macrosoftas.archijee.ArchiJEEApplication [restartedMain] Start Archi Application ...
