@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Les Amis de l'Escalade</title>
+</head>
+
+<body>
+<!-- header -->
+<header th:replace="fragments/header::header">
+
+<div th:if="${role == 'ADMIN'}">
+<div th:replace="fragments/headerAdmin::menuAdmin"></div>
+</div>
+</header>
+
+<!-- fin header -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow jumbotron">
+                <h1>Sites d'Escalades</h1>
+                <hr>
+                <h5>Rechercher un ou des sites en fonctions d'un ou plusieurs critères</h5>
+                <form th:action="@{/sites}">
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${keyword}" type="text" class="form-control" name="keyword" id="keyword" placeholder="Nom du site">
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${region}" type="text" class="form-control" name="region" id="region" placeholder="Région"></input>
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${nbVoies}" type="text" class="form-control" name="nbVoies" id="nbVoies" placeholder="Nombre de voies">
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${cotationMin}" type="text" class="form-control" id="cotation_min" placeholder="Cotation min"></input>
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${cotationMax}" type="text" class="form-control" id="cotation_max" placeholder="Cotation max"></input>
+                        </div>
+                        <div class="form-group col-6 col-md-6 col-lg-4">
+                            <button type="submit" class="btn btn-primary mt-auto mx-auto w-100">Chercher</button>
+                       <div class="form-group col-6 col-md-6 col-lg-4">
+                          </div>
+                            <a class="btn btn-success mt-auto mx-auto w-100" href="/siteForm">Ajouter un site</a>
+                        </div>
+                    </div>
+                </form>
+                <div class="row" th:if="${recherchenull}">
+                    <div class="col-8" th:text="*{recherchenull}"></div>
+                    <a class="btn btn-primary col-4" href="/sites">Réinitialiser</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div th:each="s:${sitePage}" class="col-12 my-4 col-lg-4">
+            <div class="border-secondary shadow card h-100">
+                <img class="card-img-top" src="#" th:src ="@{|/img/site/${s.site_image}|}" alt="site_image" height="250">
+                <div class="card-body">
+                    <h5 class="card-title" th:text="${s.nom}"></h5>
+                    <table class="table table-border">
+                        <tr>
+                            <td class="text-left">Région</td>
+                            <td th:text="${s.region}"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Cotations</td>
+                            <td th:text="'De ' + ${s.cotationMin} + ' à ' + ${s.cotationMax}"></td>
+                        </tr>
+                        <tr>
+                            <td class="text-left">Nombre de voies</td>
+                            <td th:text="${s.nbVoies}"></td>
+                        </tr>
+                    </table>
+                    <a class="stretched-link btn btn-secondary" th:href="@{pageEscalade/
+                            (id=${s.id})}" role="button">Plus de détails</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--<div class="card">
+    <table class="table">
+        <tr>
+            <th><form th:action="@{/visiteur/sites}">
+                Nom <input type="text" name="keyword" id="keyword" size="50" th:value="${keyword}"/>
+                Région <input type="text" name="region" id="region" size="50" th:value="${region}"/><br>
+                Nombre de voies <input type="text" name="nbVoies" id="nbVoies" size="50" th:value="${nbVoies}"/><br>
+                Cotation minimum <input type="text" name="cotationMin" id="cotationMin" size="50" th:value="${cotationMin}"/>
+                Cotation maximum <input type="text" name="cotationMax" id="cotationMax" size="50" th:value="${cotationMax}"/>
+                &nbsp;
+                <input class="btn btn-info" type="submit" value="Filtrer" />
+                &nbsp;
+                <input class="btn btn-info" type="reset" value="Reset">
+            </form></th><th></th><th></th><th></th><th th:if="${successMessage}"><th th:text="${successMessage}"></th></th><th></th><th></th><th></th><th><a class="btn btn-info" href="/utilisateurForm">Ajouter UtilisateurOld</a></th>
+            <th th:if="${role == 'ADMIN'}"><a class="btn btn-info" href="/membreForm">Ajouter Membre</a></th><th><a class="btn btn-info" href="/siteForm">Ajouter</a></th>
+        </tr>
+    </table>
+</div>
+
+<main th:each="s:${sitePage}" >
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="d-inline p-2 col-sm-4">
+                <div class="card mb-4 box-shadow">
+
+
+                    <td><img scr="#" th:src ="@{|/img/site/${s.site_image}|}" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true"></td>
+
+                    <table>
+                        <tr class="card-body">
+                            <td>Nom : </td><th></th><td th:text="${s.nom}"></td>
+                        </tr>
+                        <tr class="card-body">
+                            <td>Région : </td><th></th><td th:text="${s.region}"></td>
+                        </tr>
+                        <tr class="card-body">
+                            <td>Nombre de voie : </td><th></th><td th:text="${s.nbVoies}"></td>
+                        </tr>
+                        <tr class="card-body">
+                            <td>Cotation : </td><th></th><td th:text="'De ' + ${s.cotationMin} + ' à ' + ${s.cotationMax}"></td>
+                        </tr>
+                    </table>
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <div class="btn-group">
+                            <a type="button" class="btn btn-sm btn-outline-secondary" th:href="@{/visiteur/pageEscalade/
+                            (id=${s.id})}">View</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>-->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">&middot;</li>
+                    <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                    </li>
+                    <li class="list-inline-item">&middot;</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

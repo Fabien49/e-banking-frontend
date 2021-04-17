@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html
+    xmlns:th="http://www.thymeleaf.org"
+    xmlns:sec="https://www.thymeleaf.ord/thymeleaf-extras-springsecurity5"
+>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript"></script>
+    <title>Results</title>
+</head>
+<body>
+
+<!-- header -->
+<header class="container-fluid header">
+    <div class="container-logo">
+        <a href="/" class="active">Les Amis de l'Escalade</a>
+        <nav class="menu">
+            <a href="/">Accueil</a>
+            <a href="/sites">Sites d'escalade</a>
+            <a href="#">Topos</a>
+            <a href="#about">A propos</a>
+            <!-- <a href="#contact">Contact</a> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+
+    </div>
+
+</header>
+<!-- end header -->
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">Utilisateur enregistré ou mis à jour</div>
+        <div class="card-body">
+
+
+            <table class="table">
+                <tr>
+                    <th>Nom</th><th>Prénom</th><th>Mail<th>Mot de passe</th><th>Sexe</th><th>Voie</th><th>Code postal</th><th>Commune</th><th>Niveau</th>
+                </tr>
+                <tr th:each="u:${utilisateurOld}">
+                    <td th:text="${utilisateurOld.nom}"></td>
+                    <td th:text="${utilisateurOld.prenom}"></td>
+                    <td th:text="${utilisateurOld.mail}"></td>
+                    <td th:text="${utilisateurOld.mdp}"></td>
+                    <td th:text="${utilisateurOld.sexe}"></td>
+                    <td th:text="${utilisateurOld.voie}"></td>
+                    <td th:text="${utilisateurOld.codePostal}"></td>
+                    <td th:text="${utilisateurOld.commune}"></td>
+                    <td th:text="${utilisateurOld.niveau}"></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <div class="center-block">
+<a  class="btn btn-success" href="/utilisateurOld">Liste utilisateurOld</a>
+<a  class="btn btn-success" href="/callFormInscription">Inscription</a>
+    </div>
+</div>
+
+</body>
+</html>

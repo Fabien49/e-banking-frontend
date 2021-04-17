@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+
+    <title>Les Amis de l'Escalade</title>
+
+</head>
+
+<body>
+
+<!-- Header -->
+<header th:replace="fragments/header::header"></header>
+
+<!-- Reste de la page -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+        <div th:if="*{successMessage}" class="alert alert-info alert-dismissible fade show" role="alert">
+            <h5 class="alert-heading">Félicitation !</h5>
+            <p th:text="${successMessage}"></p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow jumbotron">
+                <h1>Bienvenue chez les Amis de l'Escalade !</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div th:if="${role == null}" class="col-12 my-4 col-lg-6">
+            <div class="border-secondary shadow card h-100">
+                <img class="card-img-top" src="/img/insctiption.jpg" alt="insctiption" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">Inscrivez-vous c'est gratuit</h5>
+                    <p class="card-text">Vous pourrez échanger avec d'autres passionnés sur vos parcours, partager vos expériences et emprunter ou prêter des topos !
+                        Rejoins-nous vite !</p>
+                    <a class="stretched-link btn btn-secondary" href="/inscription" role="button">S'inscrire</a>
+                </div>
+            </div>
+        </div>
+        <div th:if="${role == null}" class="col-12 my-4 col-lg-6">
+            <div class="border-secondary shadow card h-100">
+                <img class="card-img-top" src="/img/site.jpg" alt="site" height="300">
+                <div class="card-body">
+                    <h5 class="card-title">Sites d'escalades</h5>
+                    <p class="card-text">Ici vous trouverez tous les sites que les utilisateurs ont partagé. Il y en a pour tous les niveaux car les cotations y sont indiquées. Ainsi que plein d'autres informations.</p>
+                    <a class="stretched-link btn btn-secondary" href="/sites" role="button">Voir les sites</a>
+                </div>
+            </div>
+        </div>
+
+        <div th:if="${role}" class="col-12 my-4 col-lg-4">
+            <div class="border-secondary shadow card h-100">
+                <img class="card-img-top" src="/img/site.jpg" alt="site" height="300">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Sites d'escalades</h5>
+                    <p class="card-text">Ici vous trouverez tous les sites que les utilisateurs ont partagé. Il y en a pour tous les niveaux car les cotations y sont indiquées. Ainsi que plein d'autres informations.</p>
+                    <a class="stretched-link btn btn-primary mt-auto" href="/sites" role="button">Voir les sites</a>
+                </div>
+            </div>
+        </div>
+
+        <div th:if="${role}" class="col-12 my-4 col-lg-4">
+            <div class="border-secondary shadow card h-100">
+                <img class="card-img-top" src="img/topo/topo_diois.jpg" alt="topo" height="300">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Topos</h5>
+                    <p class="card-text">Vous pourrez chercher, et faire des demandes de prêt de topos</p>
+                    <a class="stretched-link btn btn-primary mt-auto" href="/topos" role="button">Voir les topos</a>
+                </div>
+            </div>
+        </div>
+        <div th:if="${role}" class="col-12 my-4 col-lg-4">
+            <div class="border-secondary shadow card h-100">
+                <img class="card-img-top" src="img/inscription.jpg" alt="compte" height="300">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Mon compte</h5>
+                    <p class="card-text">C'est ici que tu pourras enregistrer tes propres topos, accepter ou refuser des demandes de prêt de tes topos, suivre tes demandes également</p>
+                    <a class="stretched-link btn btn-primary mt-auto" href="/monCompte" role="button">Voir mon compte</a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-12 my-4 col-lg-4">
+          <div class="border-secondary shadow card">
+            <img class="card-img-top" src="job.png" alt="job">
+            <div class="card-body">
+              <h5 class="card-title">Un travail garanti</h5>
+          <p class="card-text">Nous vous garantissons un emploi à l'issue de votre formation.</p>
+          <a class="btn btn-secondary" href="#" role="button">Témoignages d'anciens élèves</a>
+          </div>
+          </div> -->
+    </div>
+</div>
+<footer>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item">&middot;</li>
+                <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                </li>
+                <li class="list-inline-item">&middot;</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+

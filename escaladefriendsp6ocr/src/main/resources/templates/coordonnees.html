@@ -1,0 +1,183 @@
+    <!DOCTYPE html>
+    <html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../../../favicon.ico">
+
+        <title>Les Amis de l'Escalade</title>
+
+
+         <link rel="stylesheet" href="css/style.css" />
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <!-- Custom styles for this template -->
+        <link href="/css/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+    <!-- header -->
+    <header th:replace="fragments/header::header"></header>
+
+    <!-- end header -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="border-secondary shadow jumbotron">
+                    <h1>Coordonnées des deux parties !</h1>
+                </div>
+            </div>
+        </div>
+        <div th:object="${coordonnees}" class="row">
+            <div class="col-12 my-4 col-lg-6">
+                <div class="border-secondary shadow card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Propriétaire</h5>
+                        <table class="table table-border">
+                            <tr>
+                                <td th:text="*{lastName}" class="text-left">Nom </td>
+                            </tr>
+                            <tr>
+                                <td th:text="*{name}" class="text-left">Prénom</td>
+                            </tr>
+                            <tr>
+                                <td th:text="*{email}" class="text-left">Adresse mail</td>
+                            </tr>
+                            <tr>
+                                <td th:text="*{voie}" class="text-left">Adresse</td>
+                            </tr>
+                            <tr>
+                                <td th:text="*{codePostal}" class="text-left">Code postal</td>
+                            </tr>
+                            <tr>
+                                <td th:text="*{commune}" class="text-left">Commune</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-4 col-lg-6">
+                <div class="border-secondary shadow card h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Emprunteur</h5>
+                        <table class="table table-border">
+                            <tr>
+                                <td class="text-left">Nom </td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">Prénom</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">Adresse mail</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">Adresse</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">Code postal</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">Commune</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--<div class="card">
+        <table class="table">
+            <tr>
+                <th><h1>COORDONNEES</h1></th>
+            </tr>
+        </table>
+    </div>
+
+    <div th:object="${coordonnees}" class="card-body">
+        <table class="table table-striped" border="1" cellpadding="10">
+
+            <tr></tr>
+
+            <tr>
+                <td class="p-3 mb-2 bg-dark text-white align-middle text-center">NOM</td>
+                <td th:text="*{lastName}"></td>
+            </tr>
+            <tr>
+                <td class="p-3 mb-2 bg-dark text-white align-middle text-center">PRENOM</td>
+                <td th:text="*{name}"></td>
+            </tr>
+            <tr>
+                <td class="p-3 mb-2 bg-dark text-white align-middle text-center">ADRESSE MAIL</td>
+                <td th:text="*{email}"></td>
+            </tr>
+            <tr>
+                <td class="p-3 mb-2 bg-dark text-white align-middle text-center">TELEPHONE</td>
+            </tr>
+            <tr>
+                <td class="align-middle text-center">CODE POSTAL</td>
+                <td th:text="*{codePostal}"></td>
+            </tr>
+        </table>
+    </div>-->
+
+
+<!--            <tr th:each="t:${coordonnees}">
+                <td th:text="${t.topo.nom}"></td>
+                <td th:text="${t.topo.proprietaire}"></td>
+                <td th:text="${t.topo.region}"></td>
+                <td th:text="${t.topo.nbSites}"></td>
+                <td th:text="${t.topo.nbVoies}"></td>
+                <td th:text="${t.topo.cotationMin}"></td>
+                <td th:text="${t.topo.cotationMax}"></td>
+            </tr>-->
+
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">&middot;</li>
+                            <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                            </li>
+                            <li class="list-inline-item">&middot;</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
+
+    </body>
+    </html>

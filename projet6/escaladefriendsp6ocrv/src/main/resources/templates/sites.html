@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Les Amis de l'Escalade</title>
+
+    <!-- Bootstrap core CSS
+     <link href="../../css/editor.css" rel="stylesheet">-->
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<!-- header -->
+<header th:replace="fragments/header::header"></header>
+
+<div th:if="${role == 'ADMIN'}">
+<div th:replace="fragments/headerAdmin::menuAdmin"></div>
+</div>
+
+<div class="card">
+    <table class="table">
+        <tr>
+            <th><form th:action="@{/visiteur/sites}">
+                Nom <input type="text" name="keyword" id="keyword" size="50" th:value="${keyword}"/>
+                Région <input type="text" name="region" id="region" size="50" th:value="${region}"/><br>
+                Nombre de voies <input type="text" name="nbVoies" id="nbVoies" size="50" th:value="${nbVoies}"/><br>
+                Cotation minimum <input type="text" name="cotationMin" id="cotationMin" size="50" th:value="${cotationMin}"/>
+                Cotation maximum <input type="text" name="cotationMax" id="cotationMax" size="50" th:value="${cotationMax}"/>
+                &nbsp;
+                <input class="btn btn-info" type="submit" value="Filtrer" />
+                &nbsp;
+                <input class="btn btn-info" type="reset" value="Reset">
+            </form></th><th></th><th></th><th></th><th th:if="${successMessage}"><th th:text="${successMessage}"></th></th><th></th><th></th><th></th><th><a class="btn btn-info" href="/userForm">Ajouter Utilisateur</a></th>
+            <th th:if="${role == 'ADMIN'}"><a class="btn btn-info" href="/membreForm">Ajouter Membre</a></th><th><a class="btn btn-info" href="/siteForm">Ajouter</a></th>
+        </tr>
+    </table>
+</div>
+
+
+<main th:each="s:${sitePage}" >
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="d-inline p-2 col-sm-4">
+                <div class="card mb-4 box-shadow">
+
+
+                    <td><img scr="#" th:src ="@{|/img/site/${s.site_image}|}" style="height: 225px; width: 100%; display: block;" data-holder-rendered="true"></td>
+
+                    <table>
+                        <tr class="card-body">
+                            <td>Nom : </td><th></th><td th:text="${s.nom}"></td>
+                        </tr>
+                        <tr class="card-body">
+                            <td>Région : </td><th></th><td th:text="${s.region}"></td>
+                        </tr>
+                        <tr class="card-body">
+                            <td>Nombre de voie : </td><th></th><td th:text="${s.nbVoies}"></td>
+                        </tr>
+                        <tr class="card-body">
+                            <td>Cotation : </td><th></th><td th:text="'De ' + ${s.cotationMin} + ' à ' + ${s.cotationMax}"></td>
+                        </tr>
+                    </table>
+
+                    <div class="d-flex justify-content-between align-items-center">
+
+                        <div class="btn-group">
+                            <a type="button" class="btn btn-sm btn-outline-secondary" th:href="@{/visiteur/pageEscalade/
+                            (id=${s.id})}">View</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <p class="float-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="../../js/vendor/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
+</html>

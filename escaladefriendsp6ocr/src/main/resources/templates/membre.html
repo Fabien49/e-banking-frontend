@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+	<!-- css -->
+	<link rel="stylesheet" href="/css/main.css">
+
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/script.js"></script>
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>-->
+
+	<title>Les Amis de l'Escalade</title>
+</head>
+
+<!-- contenu du site -->
+<body>
+<!-- header -->
+<header class="container-fluid header">
+	<div class="container-logo">
+		<a href="/" class="active">Les Amis de l'Escalade</a>
+		<nav class="menu">
+			<a href="membre">Accueil</a>
+			<a href="/visiteur/sites">Sites d'escalade</a>
+			<a href="/siteListe">Sites</a>
+			<a href="/topoListe">Topos</a>
+			<a href="/membre#about">A propos</a>
+			<a href="/utilisateurOld">Gestion des utilisateurs</a>
+			<a href="/compte">Mon compte</a>
+			<a href="/logout" class="btn btn-default"><i class="fa fa-power-off"></i></a>
+			<!-- <a href="#contact">Contact</a> -->
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i></a>
+		</nav>
+
+	</div>
+
+</header>
+<!-- end header -->
+
+<!-- banniere -->
+<section class="container-fluid">
+	<div class="ban">
+		<img src="img/ban5.jpg" alt="Bannière du site" class="banner" />
+	</div>
+	<div class="inner-banner">
+		<h1>Bienvenue  dans l'espace des membres</h1>
+		<p th:object="'Bonjour ' + ${utilisateurIdentity}"></p>
+		<!-- <a href="/callFormInscription"type="button" class="btn btn-custom">Inscritpion</a>
+		<button type="button "class="btn btn-custom" data-toggle="modal" data-target="#sem-login">Connexion</button> -->
+	</div>
+
+
+<!-- end banniere -->
+
+<section>
+
+
+</section>
+
+<!-- à propos -->
+<section class="container-fluid about">
+	<div class="container">
+		<h2 id="about">A propos de nous</h2>
+		<hr class="separator">
+		<div class="row">
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Qui ?</h2>
+				<p>
+					Nous sommes des passionnés d'escalade et avons décidé de créer un site pour que comme nous tu viennes partager ta passion, tes expériences avec d'autres.
+				</p>
+			</article>
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Pour ?</h2>
+				<p>
+					Les Amis de l'Escalade a pour but de réunir tous les mordus d'escalade. Tu trouveras sur ce site tous les sites d'escalades de France, tu pourras également chercher un site d'escalade en fonction du lieu, de la cotation, du nombre de secteurs etc.
+				</p>
+			</article>
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Comment ?</h2>
+				<p>
+					L'inscription est gratuite, elle te permettra entre autre de laisser un commentaire sur les pages des differents sites que tu as pu faire, d'enregistrer dans ton espace personnel tes topos et préciser si ils sont disponibles, en réserver à d'autres utilisateurs...
+				</p>
+			</article>
+		</div>
+	</div>
+</section>
+<!-- end à propos -->
+
+
+<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "menu") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "menu";
+		  }
+		}
+		</script>
+
+</section>
+<!-- footer-->
+<div class="main_footer">
+	<p class="footer">Par Fabien Chapeau de chez OC</p>
+</div>
+</body>
+</html>

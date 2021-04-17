@@ -1,0 +1,7 @@
+2021-02-03 06:58:50,180 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Starting EscaladeApplication on FABPC with PID 7160 (C:\Users\FaB\Git\escaladefriendsp6ocr\target\classes started by FaB PC in C:\Users\FaB\Git\escaladefriendsp6ocr)
+2021-02-03 06:58:50,196 DEBUG com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2021-02-03 06:58:50,199 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] The following profiles are active: prod
+2021-02-03 06:59:01,430 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Started EscaladeApplication in 11.997 seconds (JVM running for 14.647)
+2021-02-03 06:59:01,432 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Le chemin des images des sites est : img/site
+2021-02-03 06:59:01,434 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Start Les Amis de l'Escalade Application ...
+2021-02-03 07:56:57,021 ERROR com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-9] Pas de role

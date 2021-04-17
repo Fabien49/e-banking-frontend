@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header::headerlink"></head>
+
+<!-- contenu du site -->
+<body>
+<!-- header -->
+<header th:replace="fragments/headerAdmin::headerAdmin"></header>
+
+<!-- end header -->
+
+<!-- banniere -->
+<section class="container-fluid">
+	<div class="ban">
+		<img src="/img/ban5.jpg" alt="Bannière du site" class="banner" />
+	</div>
+	<div class="inner-banner">
+		<h1>Bienvenue  dans l'espace Membre</h1>
+		<p th:text="${utilisateurName}"></p>
+		<!-- <a href="/callFormInscription"type="button" class="btn btn-custom">Inscritpion</a>
+		<button type="button "class="btn btn-custom" data-toggle="modal" data-target="#sem-login">Connexion</button> -->
+	</div>
+
+
+<!-- end banniere -->
+
+<section>
+
+
+</section>
+
+<!-- à propos -->
+<section class="container-fluid about">
+	<div class="container">
+		<h2 id="about">A propos de nous</h2>
+		<hr class="separator">
+		<div class="row">
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Qui ?</h2>
+				<p>
+					Nous sommes des passionnés d'escalade et avons décidé de créer un site pour que comme nous tu viennes partager ta passion, tes expériences avec d'autres.
+				</p>
+			</article>
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Pour ?</h2>
+				<p>
+					Les Amis de l'Escalade a pour but de réunir tous les mordus d'escalade. Tu trouveras sur ce site tous les sites d'escalades de France, tu pourras également chercher un site d'escalade en fonction du lieu, de la cotation, du nombre de secteurs etc.
+				</p>
+			</article>
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Comment ?</h2>
+				<p>
+					L'inscription est gratuite, elle te permettra entre autre de laisser un commentaire sur les pages des differents sites que tu as pu faire, d'enregistrer dans ton espace personnel tes topos et préciser si ils sont disponibles, en réserver à d'autres utilisateurs...
+				</p>
+			</article>
+		</div>
+	</div>
+</section>
+<!-- end à propos -->
+
+
+<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "menu") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "menu";
+		  }
+		}
+		</script>
+
+</section>
+<!-- footer-->
+<div class="main_footer">
+	<p class="footer">Par Fabien Chapeau de chez OC</p>
+</div>
+</body>
+</html>

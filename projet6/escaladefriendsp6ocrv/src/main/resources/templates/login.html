@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../../../favicon.ico">
+
+	<title>Les Amis de l'Escalade</title>
+
+	<!-- Bootstrap core CSS
+     <link href="../../css/editor.css" rel="stylesheet">-->
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<!-- Custom styles for this template -->
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+<p>
+	<!-- header -->
+	<header class="container-fluid header">
+		<div class="container-logo">
+			<a href="/" class="active">Les Amis de l'Escalade</a>
+			<nav class="menu">
+				<a href="/">Accueil</a>
+				<a href="/sites">Sites d'escalade</a>
+				<a href="/#about">A propos</a>
+				<!-- <a href="#contact">Contact</a> -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i></a>
+			</nav>
+
+		</div>
+
+	</header>
+
+	<!-- end header -->
+
+<p><div class="">
+	<h1>CONNEXION</h1>
+	<div class="container">
+		<div class="row main">
+			<div class="main-login main-center">
+				<form th:action="@{/login}" method="POST" class="form-signin">
+
+
+					<div class="form-group">
+						<label for="email" class="cols-sm-2 control-label">Mail : </label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								<input type="text"  th:placeholder="Email" class="form-control" name="email" id="email"/>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="password" class="cols-sm-2 control-label">Mot de passe : </label>
+						<div class="cols-sm-10">
+							<div class="input-group">
+								<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								<input type="password"  th:placeholder="Password" class="form-control" name="password" id="password"/>
+							</div>
+						</div>
+					</div>
+
+					<div align="center" th:if="${param.error}">
+						<p style="font-size: 20; color: #FF1C19;">Email or Password invalid, please verify</p>
+					</div>
+
+
+					<div class="form-group ">
+						<input  type="submit"  id="button" class="btn btn-primary btn-lg btn-block login-button"></input>
+					</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</p>
+
+
+
+
+<footer class="text-muted">
+	<div class="container">
+		<p class="float-right">
+			<a href="#">Back to top</a>
+		</p>
+		<p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="../../js/vendor/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg>
+</body>
+</html>
+
+
+
+
+
+<!--
+<body>
+	<div class="container">
+		<img th:src="@{images/userlogin.png}" class="img-responsive center-block" width="150" height="150" alt="Logo" />
+		<form th:action="@{/login}" method="POST" class="form-signin">
+			<h3 class="form-signin-heading" th:text="MACROSOFT"></h3>
+			<br/>
+			 
+			<input type="text" id="email" name="email"  th:placeholder="Email"
+				class="form-control" /> <br/> 
+			<input type="password"  th:placeholder="Password"
+				id="password" name="password" class="form-control" /> <br /> 
+				
+			<div align="center" th:if="${param.error}">
+				<p style="font-size: 20; color: #FF1C19;">Email or Password invalid, please verify</p>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit" th:text="Login"></button>
+		</form>
+	</div>
+</body>
+-->

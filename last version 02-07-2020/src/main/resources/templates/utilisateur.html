@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript"></script>
+    <title>Utilisateur</title>
+</head>
+<body>
+<!-- header -->
+<header class="container-fluid header">
+    <div class="container-logo">
+        <a href="/home" class="active">Les Amis de l'Escalade</a>
+        <nav class="menu">
+            <a href="/home">Accueil</a>
+            <a href="/sites">Sites d'escalade</a>
+            <a href="#">Topos</a>
+            <a href="#about">A propos</a>
+            <!-- <a href="#contact">Contact</a> -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+
+    </div>
+
+</header>
+<!-- end header -->
+
+<div class="container-fluid mt-5">
+<div class="card">
+    <div class="card-header">Liste des utilisateurs</div>
+        <div class="card-body">
+            <form method="get" th:action="@{utilisateur}">
+                <div class="form-group">
+                    <label>Nom</label>
+                    <input type="text" name="keyword" th:value="${keyword}">
+                    <button class="btn btn-primary">Chercher</button>
+                </div>
+            </form>
+            <table class="table">
+                <tr>
+                    <th>Nom</th><th>Prénom</th><th>Mail<th>Mot de passe</th><th>Sexe</th><th>Voie</th><th>Code postal</th><th>Commune</th><th>Niveau</th>
+                </tr>
+                <tr th:each="u:${utilisateurPage}">
+                    <td th:text="${u.nom}"></td>
+                    <td th:text="${u.prenom}"></td>
+                    <td th:text="${u.mail}"></td>
+                    <td th:text="${u.mdp}"></td>
+                    <td th:text="${u.sexe}"></td>
+                    <td th:text="${u.voie}"></td>
+                    <td th:text="${u.codePostal}"></td>
+                    <td th:text="${u.commune}"></td>
+                    <td th:text="${u.niveau}"></td>
+                    <td><a onclick="return confirm('Etes vous sure de vouloir supprimer l'utilisateur ?')" class="btn btn-danger" th:href="@{deleteUtilisateur(id=${u.id},keyword=${keyword},page=${currentPage},size=${size})}">Supprimer</a></td>
+                    <td><a class="btn btn-info" th:href="@{editUtilisateur(id=${u.id})}">Editer</a></td>
+                </tr>
+
+            </table>
+
+            <ul class="nav nav-pills">
+                <li  th:each="page,status:${pages}">
+                    <a  th:class="${status.index == currentPage?'btn btn-primary' : 'btn'}" th:href="@{utilisateur(page=${status.index}, keyword=${keyword})}" th:text="${status.index}"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<a href="/">Accueil</a>
+
+</body>
+</html>

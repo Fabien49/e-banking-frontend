@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head th:fragment="headerlink">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/script.js"></script>
+    <!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <title>Les Amis de l'Escalade</title>
+       
+    </head>
+
+<body>
+<!-- header -->
+<header class="container-fluid header" th:fragment="header">
+    <div class="container-logo">
+        <a href="/" class="active">Les Amis de l'Escalade</a>
+        <nav class="menu">
+            <a href="/">Accueil</a>
+            <a href="/visiteur/sites">Sites d'escalade</a>
+            <a href="/membre#about">A propos</a>
+            <a th:if="${role}" href="/monCompte">Mon compte</a>
+            <a th:if="${role}" href="/logout" class="btn btn-default"><i class="fa fa-power-off"></i></a>
+        </nav>
+    </div>
+
+</header>
+<!-- end header -->
+<!--<div class="navbar navbar-inverse navbar-static-top" id="topNav">
+    <div class="container">
+        <div class="nav navbar-nav">
+            <a href="/" class="active">Les Amis de l'Escalade</a>
+        </div>
+        <div class="menu">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="membre">Accueil</a>
+            </li>
+            <li><a href="/visiteur/sites">Sites d'escalade</a>
+            </li>
+            <li><a href="/membre#about">A propos</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</div>
+</header>-->
+<!-- header -->
+<!--<header class="container-fluid header" th:fragment="headerAdmin">-->
+
+    <!--	<div class="container-logo">
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">Les Amis de l'Escalade</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="membre">Accueil</a></li>
+                    <li><a href="/visiteur/sites">Sites d'escalade</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestion <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/siteListe">Sites</a></li>
+                            <li><a href="/topoListe">Topos</a></li>
+                            <li><a href="admin/userListe">Utilisateurs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/membre#about">A propos</a></li>
+                    <li><a href="/logout" class="btn btn-default"><i class="fa fa-power-off"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>-->
+
+
+   <!-- <div class="container-logo">
+        <a href="/" class="active">Les Amis de l'Escalade</a>
+        <nav class="menu">
+            <a href="membre">Accueil</a>
+            <a href="/visiteur/sites">Sites d'escalade</a>
+            &lt;!&ndash;<a href="/siteListe">Sites</a>
+            <a href="/topoListe">Topos</a>&ndash;&gt;
+            <a href="/membre#about">A propos</a>
+            &lt;!&ndash;			<a href="admin/userListe">Gestion des utilisateurs</a>&ndash;&gt;
+            <a href="/compte">Mon compte</a>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Gestion
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="/siteListe">Sites</a>
+                    <a class="dropdown-item" href="/topoListe">Topos</a>
+                    <a class="dropdown-item" href="admin/userListe">Utilisateurs</a>
+                </div>
+            </div>
+            <a href="/logout" class="btn btn-default"><i class="fa fa-power-off"></i></a>
+            &lt;!&ndash;			<a href="#contact">Contact</a>&ndash;&gt;
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+        </nav>
+    </div>
+</header>-->
+<!-- end header -->
+</body>
+
+</html>

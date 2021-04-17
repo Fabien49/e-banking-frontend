@@ -1,0 +1,21 @@
+2021-01-23 00:00:31,288 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Starting EscaladeApplication on FABPC with PID 2028 (C:\Users\FaB\Git\escaladefriendsp6ocr\target\classes started by FaB PC in C:\Users\FaB\Git\escaladefriendsp6ocr)
+2021-01-23 00:00:31,300 DEBUG com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2021-01-23 00:00:31,303 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] The following profiles are active: prod
+2021-01-23 00:00:42,117 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Started EscaladeApplication in 11.453 seconds (JVM running for 12.747)
+2021-01-23 00:00:42,120 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Le chemin des images des sites est : img/site
+2021-01-23 00:00:42,122 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [restartedMain] Start Les Amis de l'Escalade Application ...
+2021-01-23 00:00:51,541 ERROR com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-1] Pas de role
+2021-01-23 00:00:51,542 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-1] Le nombre de site est : 1
+2021-01-23 00:00:58,116 ERROR com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-5] Pas de role
+2021-01-23 00:00:58,117 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-5] Le nombre de site est : 1
+2021-01-23 00:01:00,604 ERROR com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Pas de role
+2021-01-23 00:01:00,605 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Le nombre de site est : 2
+2021-01-23 00:01:14,036 ERROR com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Pas de role
+2021-01-23 00:01:14,036 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Le nombre de site est : 2
+2021-01-23 00:01:38,793 ERROR com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Pas de role
+2021-01-23 00:01:38,793 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Le nombre de site est : 1
+2021-01-23 00:01:49,752 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-9] Le nombre de site est : 2
+2021-01-23 00:01:57,063 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-7] Le nombre de site est : 2
+2021-01-23 00:02:08,011 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-8] Le nombre de site est : 2
+2021-01-23 00:02:14,196 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-9] Le nombre de site est : 2
+2021-01-23 00:02:28,926 INFO com.fabienIT.escaladefriendsp6ocr.controller.TopoController [http-nio-8088-exec-4] Le nombre de site est : 1

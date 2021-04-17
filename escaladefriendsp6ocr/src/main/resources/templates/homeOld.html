@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/header::headerlink"></head>
+<!--<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	&lt;!&ndash; font &ndash;&gt;
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+	&lt;!&ndash; css &ndash;&gt;
+	<link rel="stylesheet" href="/css/main.css">
+
+
+	&lt;!&ndash; bootstrap &ndash;&gt;
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<title>Les Amis de l'Escalade</title>
+</head>-->
+
+<!-- contenu du site -->
+<body>
+<!-- header -->
+<!--<header class="container-fluid header">
+	<div class="container-logo">
+		<a href="/" class="active">Les Amis de l'Escalade</a>
+		<nav class="menu">
+			<a href="/">Accueil</a>
+			<a href="/visiteur/sites">Sites d'escalade</a>
+			<a href="#about">A propos</a>
+			&lt;!&ndash; <a href="#contact">Contact</a> &ndash;&gt;
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i></a>
+		</nav>
+
+	</div>
+
+</header>-->
+<!-- end header -->
+<!-- header -->
+<header th:replace="fragments/header::header"></header>
+<!-- end header -->
+<div th:if="${role}">
+	<div th:replace="fragments/headerAdmin::menuAdmin"></div>
+</div>
+
+<!-- banniere -->
+<section class="container-fluid">
+	<div class="ban">
+		<img src="img/ban5.jpg" alt="Bannière du site" class="banner" />
+	</div>
+	<div class="inner-banner">
+		<h1>Bienvenue chez les Amis de l'Escalade</h1>
+		<div th:if="${user}">
+			<p th:text="${successMessage}"></p>
+		</div>
+		<a th:unless="${role}" href="/inscription" type="button" class="btn btn-custom">Inscritpion</a>
+		<a th:unless="${role}" href="/login" type="button" class="btn btn-custom">Connexion</a>
+	</div>
+
+
+<!-- end banniere -->
+
+<section>
+
+
+</section>
+
+<!-- à propos -->
+<section class="container-fluid about">
+	<div class="container">
+		<h2 id="about">A propos de nous</h2>
+		<hr class="separator">
+		<div class="row">
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Qui ?</h2>
+				<p>
+					Nous sommes des passionnés d'escalade et avons décidé de créer un site pour que comme nous tu viennes partager ta passion, tes expériences avec d'autres.
+				</p>
+			</article>
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Pour ?</h2>
+				<p>
+					Les Amis de l'Escalade a pour but de réunir tous les mordus d'escalade. Tu trouveras sur ce site tous les sites d'escalades de France, tu pourras également chercher un site d'escalade en fonction du lieu, de la cotation, du nombre de secteurs etc.
+				</p>
+			</article>
+			<article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<h2>Comment ?</h2>
+				<p>
+					L'inscription est gratuite, elle te permettra entre autre de laisser un commentaire sur les pages des differents sites que tu as pu faire, d'enregistrer dans ton espace personnel tes topos et préciser si ils sont disponibles, en réserver à d'autres utilisateurs...
+				</p>
+			</article>
+		</div>
+	</div>
+</section>
+<!-- end à propos -->
+
+</section>
+<!-- footer-->
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<ul class="list-inline text-center">
+				<li class="list-inline-item">&middot;</li>
+				<li class="list-inline-item">Par Fabien Chapeau de chez OC</li>
+				<li class="list-inline-item">&middot;</li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

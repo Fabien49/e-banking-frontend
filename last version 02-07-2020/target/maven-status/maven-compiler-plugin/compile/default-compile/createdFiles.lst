@@ -1,0 +1,11 @@
+com\fabienit\escaladefriends\EscaladefriendsApplication.class
+com\fabienit\escaladefriends\controller\Home.class
+com\fabienit\escaladefriends\dao\InscriptionRepository.class
+com\fabienit\escaladefriends\entities\Utilisateur.class
+com\fabienit\escaladefriends\dao\UtilisateurRepository.class
+com\fabienit\escaladefriends\controller\UtilisateurController.class
+com\fabienit\escaladefriends\service\UtilisateurService.class
+com\fabienit\escaladefriends\service\InscriptionService.class
+com\fabienit\escaladefriends\controller\InscriptionController.class
+com\fabienit\escaladefriends\handler\UserAuthenticationSuccessHandler.class
+com\fabienit\escaladefriends\config\SecurityConfig.class

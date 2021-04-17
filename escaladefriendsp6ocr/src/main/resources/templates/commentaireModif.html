@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+
+    <title>Les Amis de l'Escalade</title>
+
+</head>
+
+<body>
+
+<!-- Header -->
+<header th:replace="fragments/header::header"></header>
+
+<!-- Reste de la page -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow jumbotron">
+                <h1>MODIFICATION DU COMMENTAIRE</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="border-0 card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Votre commentaire</h5>
+                    <form method="post" action="#" th:action="@{/saveUpdateCommentaire}" th:object="${comModif}">
+                        <div class="row">
+                            <input type="text" name="id" th:field="*{id}" th:value="${id}" />
+                            <input type="text" name="id" th:field="*{comDate}" th:value="${comDate}"/>
+                            <div class="form-group col-8">
+                                <label for="commentaire"></label>
+                                <textarea th:field="*{com}" th:value="${com}" type="text" class="form-control"
+                                          id="commentaire" placeholder="Votre commentaire"
+                                          required> </textarea>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-12 d-flex flex-column">
+                                    <button type="submit" class="btn btn-primary mt-auto mx-auto">Envoyer
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+    <h1>MODIFICATION DU COMMENTAIRE</h1>
+
+    <form method="post" action="#" th:action="@{/saveUpdateCommentaire}" th:object="${commentaireModif}">
+        <p><input type="hidden" name="id" th:field="*{id}" /></p>
+        <p><input type="hidden" name="comDate" th:field="*{comDate}" /></p>
+        <p>Commentaire : <input type="text" name="commentaire" th:field="*{com}" th:value="${com}" /></p>
+        <p><input type="hidden" name="user" th:field="*{user}" /></p>
+        <p><input type="hidden" name="site" th:field="*{site}" /></p>
+
+        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+    </form>
+
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+        </div>
+    </footer>
+
+    &lt;!&ndash; Bootstrap core JavaScript
+    ================================================== &ndash;&gt;
+    &lt;!&ndash; Placed at the end of the document so the pages load faster &ndash;&gt;
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../../js/vendor/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
+    </html>-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-inline text-center">
+                        <li class="list-inline-item">&middot;</li>
+                        <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                        </li>
+                        <li class="list-inline-item">&middot;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

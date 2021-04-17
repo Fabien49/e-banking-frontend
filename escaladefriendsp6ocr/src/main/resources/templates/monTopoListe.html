@@ -1,0 +1,154 @@
+    <!DOCTYPE html>
+    <html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="../../../../favicon.ico">
+
+        <title>Les Amis de l'Escalade</title>
+
+        <!-- Bootstrap core CSS
+         <link href="../../css/editor.css" rel="stylesheet">-->
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/script.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <!-- Custom styles for this template -->
+        <link href="/css/main.css" rel="stylesheet">
+    </head>
+
+    <body>
+    <!-- header -->
+    <header class="container-fluid header">
+        <div class="container-logo">
+            <a href="/" class="active">Les Amis de l'Escalade</a>
+            <nav class="menu">
+                <a href="/">Accueil</a>
+                <a href="/sites">Sites d'escalade</a>
+                <a href="/#about">A propos</a>
+                <!-- <a href="#contact">Contact</a> -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i></a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- end header -->
+
+
+    <div class="card">
+        <table class="table">
+            <tr>
+                <th><h1>LISTE DES TOPOS</h1></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th><a class="btn btn-info" href="/topoForm">Ajouter</a></th>
+            </tr>
+        </table>
+
+        <form th:action="@{/monTopoListe}">
+            Filtre: <input type="text" name="keyword" id="keyword" size="50" th:value="${keyword}" required />
+            &nbsp;
+            <input class="btn btn-info" type="submit" value="Filtrer" />
+            &nbsp;
+            <input class="btn btn-info" type="button" value="Réinitialiser" id="btnClear" onclick="clearSearch()" />
+        </form>
+    </div>
+
+    <div class="card-body">
+        <table class="table table-striped" border="1" cellpadding="10">
+
+            <tr></tr>
+
+            <tr class="p-3 mb-2 bg-dark text-white">
+                <th class="align-middle text-center">NOM</th><th class="align-middle text-center">PROPRIETAIRE</th><th class="align-middle text-center">REGION</th><th class="align-middle text-center">Nb DE SITES</th><th class="align-middle text-center">Nb DE VOIES</th><th class="align-middle text-center">COTATION MINI</th><th class="align-middle text-center">COTATION MAX</th><th class="align-middle text-center">DEMANDE RESERATION</th><th th:if = "${{role} == ('ADMIN') or {role} == ('MEMBRE')}" class="align-middle text-center">GESTION</th>
+            </tr>
+            <tr  th:each="t:${monTopoListe}">
+                <td th:text="${t.nom}"></td>
+                <td th:text="${t.region}"></td>
+                <td th:text="${t.date}"></td>
+                <td th:text="${t.disponible}"></td>
+                <td th:text="${t.description}"></td>
+
+                <td th:each="r:${reservation}">
+                        <span th:if="${r.id == null}"><a th:href="@{monTopoReservation/(id=${t.id})}">Demande de réservation</a></span>
+
+                    <div th:if="${r.id != null}">
+                        <span th:if="${r.demandeReservation == true} and ${r.reserve == false}">En attente de validation</span>
+
+                        <span th:if="${r.demandeReservation == true} and ${r.reserve == true}">Déjà pris !</span>
+                    </div>
+                </td>
+                    <!--<div th:if="${id == null}">
+                        <span th:if="${demandeReservation == null or demandeReservation == false}"><a th:href="@{monTopoReservation/(id=${t.id})}">Demande de réservation</a></span>
+                        </form>
+                    </div>
+                </td>-->
+
+            <!--    <td th:each="r:${reservation}">
+                    <div th:if="${r.id != null}">
+                        <span th:if="${r.demandeReservation == false}">Disponible</span>
+                        <span th:if="${r.demandeReservation == true} and ${r.reserve == false}">En attente de validation</span>
+                        <span th:if="${r.reserve == true}">Réservé</span>
+                    </div>
+                    <div th:if="${r.id == null}">
+                        <span th:if="${r.demandeReservation == null or r.demandeReservation == false}">Disponible</span>
+                    </div>
+                </td>-->
+
+                <td th:if = "${{role} == ('ADMIN') or {role} == ('MEMBRE')}">
+                    <div>
+
+                        <a class="btn btn-success" th:href="@{editerTopo/(id=${t.id})}">Editer</a>
+                    </div>
+                    &nbsp;&nbsp;&nbsp;
+                    <div>
+                        <a class="btn btn-danger" th:href="@{effacerTopo/(id=${t.id})}">Effacer</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <ul class="nav nav-pills">
+            <li  th:each="page,status:${pages}">
+                <a  th:class="${status.index == currentPage?'btn btn-primary' : 'btn'}" th:href="@{topoListe(page=${status.index}, keyword=${keyword})}" th:text="${status.index}"></a>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">Back to top</a>
+            </p>
+            <p>Album example is © Bootstrap, but please download and customize it for yourself!</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="../../js/vendor/popper.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
+    <script type="text/javascript">
+        function clearSearch() {
+            window.location = "[[@{/topoListe}]]";
+        }
+    </script>
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none" style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;"><defs><style type="text/css"></style></defs><text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg></body>
+    </html>
