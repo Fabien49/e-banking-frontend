@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+
+    <title>Bibliothèques d'Angers</title>
+
+</head>
+
+<body>
+
+<!-- Header -->
+    <header th:replace="fragments/header::header"></header>
+
+
+<!-- Reste de la page -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow jumbotron">
+                <h1>Bienvenue sur le site des bibliothèques d'Angers !</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 my-4 col-lg-6">
+            <div class="border-secondary shadow card h-90">
+                <img class="card-img-top" src="/img/biblio/angers.jpg" alt="insctiption" height="250">
+                <div class="card-body">
+                    <h5 class="card-title">Bibliothèque Toussaint</h5>
+                    <p class="card-text">Horaires</p>
+                    <a class="stretched-link btn btn-secondary" href="/inscription" role="button">Voir les livres disponibles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 my-4 col-lg-6">
+            <div class="border-secondary shadow card h-90">
+                <img class="card-img-top" src="/img/biblio/justice.jpg" alt="site" height="250">
+                <div class="card-body">
+                    <h5 class="card-title">Bibliothèque des Justices</h5>
+                    <p class="card-text">Horaires</p>
+                    <a class="stretched-link btn btn-secondary" href="/sites" role="button">Voir les livres disponibles</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <ul class="list-inline text-center">
+                <li class="list-inline-item">&middot;</li>
+                <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                </li>
+                <li class="list-inline-item">&middot;</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+

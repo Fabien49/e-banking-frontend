@@ -1,0 +1,62 @@
+{
+	"id": "a88ca250-236b-4df8-ba7d-c4da84913f42",
+	"name": "commerce",
+	"timestamp": "2021-06-06T08:09:12.476Z",
+	"collection_id": "f65339da-592f-4e7b-a369-0549e4541325",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "cfbbe888-68bd-4f33-8719-e161f9c3bca1",
+			"name": "commerce",
+			"url": "http://localhost:8080/Produits",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5294d16c-de71-45d9-8e3f-45d18e6e7b51",
+			"name": "http://localhost:8080/Produits",
+			"url": "http://localhost:8080/Produits",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				6
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 13,
+	"collection": {
+		"requests": [
+			{
+				"id": "cfbbe888-68bd-4f33-8719-e161f9c3bca1",
+				"method": "GET"
+			},
+			{
+				"id": "5294d16c-de71-45d9-8e3f-45d18e6e7b51",
+				"method": "POST"
+			}
+		]
+	}
+}

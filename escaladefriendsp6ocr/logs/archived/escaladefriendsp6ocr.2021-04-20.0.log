@@ -1,0 +1,15 @@
+2021-04-20 08:37:17,713 INFO com.fabienIT.escaladefriendsp6ocr.DemoApplicationTests [main] Starting DemoApplicationTests on FABPC with PID 10260 (started by FaB PC in C:\Users\FaB\Git\escaladefriendsp6ocr)
+2021-04-20 08:37:17,724 DEBUG com.fabienIT.escaladefriendsp6ocr.DemoApplicationTests [main] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2021-04-20 08:37:17,726 INFO com.fabienIT.escaladefriendsp6ocr.DemoApplicationTests [main] The following profiles are active: prod
+2021-04-20 08:37:27,921 INFO com.fabienIT.escaladefriendsp6ocr.DemoApplicationTests [main] Started DemoApplicationTests in 10.696 seconds (JVM running for 12.035)
+2021-04-20 08:37:27,926 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [main] Le chemin des images des sites est : img/site
+2021-04-20 08:37:28,161 INFO com.fabienIT.escaladefriendsp6ocr.ExampleRepositoryTests [main] Starting ExampleRepositoryTests on FABPC with PID 10260 (started by FaB PC in C:\Users\FaB\Git\escaladefriendsp6ocr)
+2021-04-20 08:37:28,161 DEBUG com.fabienIT.escaladefriendsp6ocr.ExampleRepositoryTests [main] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2021-04-20 08:37:28,161 INFO com.fabienIT.escaladefriendsp6ocr.ExampleRepositoryTests [main] The following profiles are active: prod
+2021-04-20 08:37:29,375 INFO com.fabienIT.escaladefriendsp6ocr.ExampleRepositoryTests [main] Started ExampleRepositoryTests in 1.262 seconds (JVM running for 13.489)
+2021-04-20 08:37:29,376 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [main] Le chemin des images des sites est : img/site
+2021-04-20 08:37:29,458 INFO com.fabienIT.escaladefriendsp6ocr.MyControllerTests [main] Starting MyControllerTests on FABPC with PID 10260 (started by FaB PC in C:\Users\FaB\Git\escaladefriendsp6ocr)
+2021-04-20 08:37:29,459 DEBUG com.fabienIT.escaladefriendsp6ocr.MyControllerTests [main] Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2021-04-20 08:37:29,459 INFO com.fabienIT.escaladefriendsp6ocr.MyControllerTests [main] The following profiles are active: prod
+2021-04-20 08:37:32,815 INFO com.fabienIT.escaladefriendsp6ocr.MyControllerTests [main] Started MyControllerTests in 3.394 seconds (JVM running for 16.929)
+2021-04-20 08:37:32,819 INFO com.fabienIT.escaladefriendsp6ocr.EscaladeApplication [main] Le chemin des images des sites est : img/site

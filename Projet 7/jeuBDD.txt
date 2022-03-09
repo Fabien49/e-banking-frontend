@@ -1,0 +1,39 @@
+    {
+        "id" : 14,
+        "titre": "Palmares de l'euro de football",
+        "auteur": "Zidane",
+        "description": "Toutes les affiches des finales depuis un siècle et des bonus",
+        "isbn": "1526987430",
+        "categorie": "sport",
+        "quantite": "12"
+    }
+
+    {
+        "id" : 15,
+        "titre": "JPA pour les nuls",
+        "auteur": "Souleymane",
+        "description": "tout apprendre sur JPA peu importe votre niveau",
+        "isbn": "1522365478",
+        "categorie": "sport",
+        "quantite": "5"
+    }
+
+    {
+        "id" : 16,
+        "titre": "Meutre au mariage",
+        "auteur": "Edgard Allan Poe",
+        "description": "Une série de meutre plus étrange les uns des autres tombent pendant un mariage",
+        "isbn": "1526659856",
+        "categorie": "policier",
+        "quantite": "8"
+    }
+
+    {
+        "id" : 17,
+        "titre": "Le roi des animaux",
+        "auteur": "Simba",
+        "description": "Vous découvrirez tout ce qu'il y a à savoir sur les lions",
+        "isbn": "1756985213",
+        "categorie": "sport",
+        "quantite": "9"
+    }

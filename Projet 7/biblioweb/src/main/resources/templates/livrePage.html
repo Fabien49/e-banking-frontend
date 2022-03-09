@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bibliothèques d'Angers</title>
+
+    <link rel="stylesheet" href="/css/style.css"/>
+
+</head>
+<h2>
+    <div th:if="${role == 'ADMIN'}">
+        <p>ça marche !</p>
+    </div>
+    <span th:text="'Hello, ' + ${role}"></span>
+
+</h2>
+<body>
+<!-- header -->
+<header th:replace="fragments/header::header"></header>
+<!-- end header -->
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow card h-100 mt-3">
+                <div class="row">
+                    <div class="col-12 my-4 col-lg-6">
+                        <div class="border-secondary card h-100 ml-3">
+                            <img class="card-img-top" th:src ="@{|/img/livre/${livrePage.livre_image}|}" alt="image_livre"
+                                 height="400">
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-lg-6">
+                        <div class="border-0 card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title text-center"
+                                    ></h4>
+                                <hr>
+                                <table class="table table-border">
+                                    <div th:objet="${livrePage}">
+                                        <tr>
+                                            <td class="text-left" >Titre</td>
+                                            <td th:text="${livrePage.titre}"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left">Auteur</td>
+                                            <td th:text="${livrePage.auteur}"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left">Catégorie</td>
+                                            <td th:text="${livrePage.categorie}"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-left">Edition</td>
+                                            <td></td>
+                                        </tr>
+                                    </div>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-0 card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Descritpion</h5>
+                                <p class="card-text" th:text="${description}"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-0 card h-100">
+                            <div class="card-body">
+                                <span> <a th:href="@{/demandeReservation/(id=${livrePage.id})}">Demande de réservation</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow card h-100 mt-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-0 card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title text-center">Commentaires</h4>
+                                <hr>
+                                <div th:if="${role}" class="row">
+                                    <div class="col-12">
+                                        <div class="border-0 card h-100">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Votre commentaire</h5>
+                                                <form method="post" action="#" th:action="@{/pageEscalade}" th:object="${commentaireForm}">
+                                                    <div class="row">
+                                                        <div class="form-group col-8">
+                                                            <label for="commentaire"></label>
+                                                            <textarea th:field="*{com}" type="text" class="form-control" id="commentaire" placeholder="Votre commentaire" required> </textarea>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group col-12 d-flex flex-column">
+                                                                <button type="submit" class="btn btn-primary mt-auto mx-auto">Envoyer
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <table th:each="cs:${comSite}" id="tableData" class="table table-bordered">
+                                    <tr>
+                                        <td th:text="${cs.user.name}" class="text-left" style="width: 15%"></td>
+                                        <td th:text="${cs.com}" rowspan="2" style="width: 85%"></td>
+                                        <td th:if="${role == 'ADMIN'}" rowspan="2">
+                                            <div>
+                                                <a class="btn btn-success"
+                                                   th:href="@{/editerCommentaire/(id=${cs.id})}">Editer</a>
+                                            </div>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <div>
+                                                <a class="btn btn-danger"
+                                                   th:href="@{/effacerCommentaire/(id=${cs.id})}">Effacer</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td th:text="${cs.comDate}" class="text-left" style="width: 15%"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">&middot;</li>
+                    <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                    </li>
+                    <li class="list-inline-item">&middot;</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+</body>
+</html>

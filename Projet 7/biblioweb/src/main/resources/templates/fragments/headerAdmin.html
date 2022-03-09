@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head th:fragment="headerlink">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="bootstrap/js/jquery-3.5.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/script.js"></script>
+    <!--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <title>Les Amis de l'Escalade</title>
+       
+    </head>
+
+<body>
+<!-- header -->
+<header class="container-fluid header" th:fragment="headerAdmin">
+    <div class="container-logo">
+        <a href="/" class="active">Les Amis de l'Escalade</a>
+        <nav class="menu">
+            <a href="/">Accueil</a>
+            <a href="/visiteur/sites">Sites d'escalade</a>
+            <a href="/membre#about">A propos</a>
+            <a th:if="${role}" href="/logout" class="btn btn-default"><i class="fa fa-power-off"></i></a>
+        </nav>
+    </div>
+    <div class="container-fluid header">
+        <div class="container-logo">
+
+            <nav class="menu">
+                <div class="nav navbar-nav navbar-right">
+                    <a href="/siteListe">Sites</a>
+                    <a href="/topoListe">Topos</a>
+                    <a href="/userListe">Utilisateurs</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+</header>
+<!-- end header -->
+
+<div class="container-fluid header" th:fragment="menuAdmin">
+    	<div class="container-logo">
+
+            <nav class="menu">
+                <div class="nav navbar-nav navbar-right">
+                    <a href="/siteListe">Sites</a>
+                    <a href="/topoListe">Topos</a>
+                    <a href="/userListe">Utilisateurs</a>
+                </div>
+            </nav>
+        </div>
+</div>
+
+</body>
+
+</html>

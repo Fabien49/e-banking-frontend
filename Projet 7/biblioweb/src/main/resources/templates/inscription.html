@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- css -->
+	<link rel="stylesheet" href="/css/style.css" />
+
+	<title>Bibliothèques d'Angers</title>
+</head>
+
+<!-- contenu du site -->
+<body>
+<!-- header -->
+<header th:replace="fragments/header::header"></header>
+
+<!-- end header -->
+
+<!-- banniere -->
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="border-secondary shadow card mt-3 px-3 py-3">
+				<h3 class="text-center">Inscription</h3>
+				<hr>
+				<form action="#" th:action="@{/ajouter}" th:object="${usager}" method="post">
+					<div class="row">
+						<div class="form-group col-6">
+							<label for="name">Prénom :</label>
+							<input type="text" th:field="*{name}" class="form-control" id="name" placeholder="Prénom" required>
+						</div>
+						<div class="form-group col-6">
+							<label for="lastname">Nom :</label>
+							<input type="text" th:field="*{lastName}" class="form-control" id="lastname" placeholder="Nom" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-6">
+							<label for="email">Mail :</label>
+							<input type="email" th:field="*{email}" class="form-control" placeholder="Email" id="email" required>
+						</div>
+						<div class="form-group col-6">
+							<label for="confirm_email">Confirmation mail :</label>
+							<input type="email" class="form-control" placeholder="Confirm Email" id="confirm_email" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-6">
+							<label for="password">Mot de passe :</label>
+							<input type="password" th:field="*{password}" class="form-control" placeholder="Password" id="password" required>
+						</div>
+						<div class="form-group col-6">
+							<label for="confirm_password">Confirmation mot de passe :</label>
+							<input type="password" class="form-control" placeholder="Confirm Password" id="confirm_password" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-12">
+							<label for="voie">Voie :</label>
+							<input type="text" th:field="*{voie}" class="form-control" placeholder="Voie" id="voie" required>
+						</div>
+						<div class="form-group col-6">
+							<label for="codePostal">Code postal :</label>
+							<input type="text" th:field="*{codePostal}" class="form-control" placeholder="Code postal" id="codePostal" required>
+						</div>
+						<div class="form-group col-6">
+							<label for="commune">Commune :</label>
+							<input type="text" th:field="*{commune}"class="form-control" placeholder="Commune" id="commune" required>
+						</div>
+					</div>
+						<div class="form-group col-12 d-flex flex-column">
+							<button type="submit" class="btn btn-primary mt-auto mx-auto">Envoyer</button>
+						</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- footer-->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<ul class="list-inline text-center">
+					<li class="list-inline-item">&middot;</li>
+					<li class="list-inline-item">Par Fabien Chapeau de chez OC
+					</li>
+					<li class="list-inline-item">&middot;</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+    var password = document.getElementById("password")
+    , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword(){
+      if(password.value != confirm_password.value) {
+        confirm_password.setCustomValidity("Passwords Don't Match");
+      } else {
+        confirm_password.setCustomValidity('');
+      }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+  </script>
+<script type="text/javascript">
+    var email = document.getElementById("email")
+    , confirm_email = document.getElementById("confirm_email");
+
+    function validateEmail(){
+      if(email.value != confirm_email.value) {
+        confirm_email.setCustomValidity("Email Don't Match");
+      } else {
+        confirm_email.setCustomValidity('');
+      }
+    }
+
+    email.onchange = validateEmail;
+    confirm_email.onkeyup = validateEmail;
+  </script>
+</body>
+</html>
