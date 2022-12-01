@@ -1,0 +1,15 @@
+2022-05-15 18:26:59,473 INFO com.fabienit.biblioweb.BibliowebApplication [main] No active profile set, falling back to default profiles: default
+2022-05-15 18:27:07,070 INFO com.fabienit.biblioweb.BibliowebApplication [main] Started BibliowebApplication in 9.783 seconds (JVM running for 11.03)
+2022-05-15 18:27:07,094 INFO com.fabienit.biblioweb.web.controllers.WebappController [http-nio-8002-exec-1] Reach url: / - GET
+2022-05-15 18:28:31,663 INFO com.fabienit.biblioweb.web.controllers.WebappController [http-nio-8002-exec-10] Reach url: /connexion - GET
+2022-05-15 18:28:38,886 INFO com.fabienit.biblioweb.web.controllers.WebappController [http-nio-8002-exec-3] Reach url: / - GET
+2022-05-15 18:28:42,226 INFO com.fabienit.biblioweb.web.controllers.WebappController [http-nio-8002-exec-9] Reach url: /profile - GET
+2022-05-15 18:28:42,229 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-9] Getting active borrows for current authenticated user
+2022-05-15 18:28:42,229 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-9] Getting authenticated current user id
+2022-05-15 18:28:42,458 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-9] Getting reservations for current authenticated user
+2022-05-15 18:28:42,458 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-9] Getting authenticated current user id
+2022-05-15 18:28:45,760 INFO com.fabienit.biblioweb.web.controllers.WebappController [http-nio-8002-exec-10] Reach url: /profile - GET
+2022-05-15 18:28:45,761 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-10] Getting active borrows for current authenticated user
+2022-05-15 18:28:45,761 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-10] Getting authenticated current user id
+2022-05-15 18:28:45,866 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-10] Getting reservations for current authenticated user
+2022-05-15 18:28:45,866 DEBUG com.fabienit.biblioweb.service.impl.WebappServiceImpl [http-nio-8002-exec-10] Getting authenticated current user id
