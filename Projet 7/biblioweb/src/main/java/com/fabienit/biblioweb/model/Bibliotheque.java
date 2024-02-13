@@ -1,28 +1,15 @@
-package com.fabienit.biblioapi.model;
+package com.fabienit.biblioweb.model;
 
-import javax.persistence.*;
 import java.util.Set;
 
-
-@Entity
 public class Bibliotheque {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "bibliotheque_id")
     int id;
     String nom;
     String voie;
     String codePostal;
     String commune;
     String biblio_image;
-
-    @OneToMany(mappedBy = "bibliotheque", fetch = FetchType.EAGER, cascade =  CascadeType.ALL)
-    private Set<Livre> livre;
-
-/*    @OneToMany(mappedBy = "bibliotheque", fetch = FetchType.EAGER, cascade =  CascadeType.ALL)
-    private Set<Usager> usager;*/
-
 
 
     public Bibliotheque() {

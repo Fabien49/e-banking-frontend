@@ -1,0 +1,342 @@
+2022-11-23 17:42:25,106 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Starting AvailableCopieControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:42:25,119 DEBUG com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:42:25,120 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] The following profiles are active: integration
+2022-11-23 17:42:40,970 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:42:43,889 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Started AvailableCopieControllerTest in 19.773 seconds (JVM running for 33.086)
+2022-11-23 17:42:45,028 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-auto-1-exec-2] Providing availablecopie resource from database: all availablecopie list
+2022-11-23 17:42:45,960 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Starting AvailableCopieControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:42:45,961 DEBUG com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:42:45,962 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] The following profiles are active: integration
+2022-11-23 17:42:49,909 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:42:50,744 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Started AvailableCopieControllerTest in 4.871 seconds (JVM running for 39.94)
+2022-11-23 17:42:51,160 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-auto-2-exec-1] Providing availablecopie resource from database: availableCopie book_id: 1, library_id: 1
+2022-11-23 17:42:51,323 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Starting AvailableCopieControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:42:51,323 DEBUG com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:42:51,324 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] The following profiles are active: integration
+2022-11-23 17:42:55,020 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:42:55,891 INFO com.fabienit.biblioapi.api.controller.AvailableCopieControllerTest [main] Started AvailableCopieControllerTest in 4.629 seconds (JVM running for 45.088)
+2022-11-23 17:42:56,332 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-auto-3-exec-1] Providing availablecopie resource from database: availableCopie book_id: 999, library_id: 999
+2022-11-23 17:42:56,623 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Starting BookControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:42:56,624 DEBUG com.fabienit.biblioapi.api.controller.BookControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:42:56,625 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] The following profiles are active: integration
+2022-11-23 17:42:59,587 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:00,238 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Started BookControllerTest in 3.704 seconds (JVM running for 49.434)
+2022-11-23 17:43:00,614 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-4-exec-1] Providing book resource from database: all book list
+2022-11-23 17:43:00,740 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Starting BookControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:00,740 DEBUG com.fabienit.biblioapi.api.controller.BookControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:00,743 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:04,900 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:05,628 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Started BookControllerTest in 4.93 seconds (JVM running for 54.825)
+2022-11-23 17:43:06,119 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-5-exec-1] Adding new book in database
+2022-11-23 17:43:06,546 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Starting BookControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:06,547 DEBUG com.fabienit.biblioapi.api.controller.BookControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:06,547 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:09,678 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:10,266 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Started BookControllerTest in 3.782 seconds (JVM running for 59.462)
+2022-11-23 17:43:10,670 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-6-exec-1] Adding new book in database
+2022-11-23 17:43:10,787 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Starting BookControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:10,788 DEBUG com.fabienit.biblioapi.api.controller.BookControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:10,788 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:13,420 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:13,917 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Started BookControllerTest in 3.181 seconds (JVM running for 63.113)
+2022-11-23 17:43:14,272 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-7-exec-1] Providing book resource from database: book id: 1
+2022-11-23 17:43:14,407 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-7-exec-3] Updating book in database, id: 1
+2022-11-23 17:43:14,560 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Starting BookControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:14,560 DEBUG com.fabienit.biblioapi.api.controller.BookControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:14,560 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:17,029 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:17,530 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Started BookControllerTest in 3.022 seconds (JVM running for 66.726)
+2022-11-23 17:43:17,843 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-8-exec-1] Providing book resource from database: book id: 1
+2022-11-23 17:43:17,942 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Starting BookControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:17,943 DEBUG com.fabienit.biblioapi.api.controller.BookControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:17,943 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:20,401 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:20,896 INFO com.fabienit.biblioapi.api.controller.BookControllerTest [main] Started BookControllerTest in 2.991 seconds (JVM running for 70.092)
+2022-11-23 17:43:21,261 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-9-exec-1] Providing book resource from database: book id: 999
+2022-11-23 17:43:21,372 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:21,373 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:21,373 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:24,993 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:27,595 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 6.271 seconds (JVM running for 76.791)
+2022-11-23 17:43:28,206 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-10-exec-1] Providing borrow resource from database: borrow id: 1
+2022-11-23 17:43:28,644 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-10-exec-2] Deleting borrow from database: id: 1
+2022-11-23 17:43:29,192 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:29,192 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:29,193 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:35,005 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:36,247 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 7.196 seconds (JVM running for 85.443)
+2022-11-23 17:43:38,215 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-11-exec-1] Providing borrow resource from database: borrow id: 999
+2022-11-23 17:43:38,754 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:38,754 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:38,755 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:42,025 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:42,636 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 3.992 seconds (JVM running for 91.833)
+2022-11-23 17:43:43,015 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-12-exec-2] Adding new borrow in database
+2022-11-23 17:43:43,495 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:43,496 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:43,496 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:48,142 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:49,154 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 5.761 seconds (JVM running for 98.351)
+2022-11-23 17:43:49,788 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-13-exec-1] Providing borrow resource from database: all borrow list
+2022-11-23 17:43:50,001 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:50,002 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:50,003 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:43:53,977 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:43:55,026 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 5.082 seconds (JVM running for 104.223)
+2022-11-23 17:43:55,417 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-14-exec-1] Providing borrow resource from database: borrow id: 999
+2022-11-23 17:43:55,533 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:43:55,534 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:43:55,534 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:01,115 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:01,847 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 6.368 seconds (JVM running for 111.044)
+2022-11-23 17:44:02,401 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-15-exec-1] Providing borrow resource from database: borrow id: 1
+2022-11-23 17:44:02,597 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-15-exec-2] Return borrow, id: 1
+2022-11-23 17:44:03,097 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:03,105 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:03,108 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:06,528 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:07,415 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 4.514 seconds (JVM running for 116.611)
+2022-11-23 17:44:07,959 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-16-exec-1] Providing borrow resources from database by user id: 1
+2022-11-23 17:44:08,447 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:08,452 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:08,454 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:13,904 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:14,744 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 6.442 seconds (JVM running for 123.94)
+2022-11-23 17:44:15,386 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-17-exec-1] Providing borrow resource from database: borrow id: 1
+2022-11-23 17:44:15,544 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-17-exec-2] Extend borrow in database, id: 1
+2022-11-23 17:44:15,558 DEBUG com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-17-exec-2] Le prêt ne peut pas être prolongé car la date de retour est dépassée
+2022-11-23 17:44:15,926 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:15,926 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:15,928 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:21,540 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:22,032 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 6.184 seconds (JVM running for 131.228)
+2022-11-23 17:44:22,389 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-18-exec-1] Providing borrow resource from database: borrow id: 2
+2022-11-23 17:44:22,527 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-18-exec-2] Extend borrow in database, id: 2
+2022-11-23 17:44:22,543 DEBUG com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-18-exec-2] Le prêt ne peut pas être prolongé car la date de retour est dépassée
+2022-11-23 17:44:22,699 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:22,702 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:22,703 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:25,245 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:25,773 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 3.17 seconds (JVM running for 134.969)
+2022-11-23 17:44:26,277 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-19-exec-1] Providing borrow resource from database: borrow id: 1
+2022-11-23 17:44:26,396 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Starting BorrowControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:26,397 DEBUG com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:26,397 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:29,753 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:30,246 INFO com.fabienit.biblioapi.api.controller.BorrowControllerTest [main] Started BorrowControllerTest in 3.894 seconds (JVM running for 139.442)
+2022-11-23 17:44:30,569 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-20-exec-1] Providing borrow resource from database: borrow id: 1
+2022-11-23 17:44:30,687 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-auto-20-exec-2] Updating borrow in database, id: 1
+2022-11-23 17:44:30,829 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Starting LibraryControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:30,830 DEBUG com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:30,830 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:33,464 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:33,950 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Started LibraryControllerTest in 3.168 seconds (JVM running for 143.146)
+2022-11-23 17:44:34,274 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-21-exec-1] Providing library resource from database: all library list
+2022-11-23 17:44:34,382 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Starting LibraryControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:34,382 DEBUG com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:34,382 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:36,718 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:37,193 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Started LibraryControllerTest in 2.848 seconds (JVM running for 146.389)
+2022-11-23 17:44:37,533 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-22-exec-1] Adding new library in database
+2022-11-23 17:44:37,634 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Starting LibraryControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:37,634 DEBUG com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:37,635 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:40,177 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:41,065 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Started LibraryControllerTest in 3.467 seconds (JVM running for 150.261)
+2022-11-23 17:44:41,871 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-23-exec-1] Providing library resource from database: library id: 1
+2022-11-23 17:44:42,020 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Starting LibraryControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:42,020 DEBUG com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:42,021 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:44,350 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:44,912 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Started LibraryControllerTest in 2.942 seconds (JVM running for 154.108)
+2022-11-23 17:44:45,264 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-24-exec-1] Providing library resource from database: library id: 1
+2022-11-23 17:44:45,380 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-24-exec-2] Updating library in database, id: 1
+2022-11-23 17:44:45,488 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Starting LibraryControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:45,499 DEBUG com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:45,500 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:48,077 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:48,525 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Started LibraryControllerTest in 3.078 seconds (JVM running for 157.721)
+2022-11-23 17:44:48,893 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-auto-25-exec-1] Providing book resource from database: book id: 999
+2022-11-23 17:44:49,075 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Starting LibraryControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:49,076 DEBUG com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:49,076 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:51,452 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:52,519 INFO com.fabienit.biblioapi.api.controller.LibraryControllerTest [main] Started LibraryControllerTest in 3.497 seconds (JVM running for 161.716)
+2022-11-23 17:44:53,390 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-26-exec-1] Providing library resource from database: library id: 1
+2022-11-23 17:44:53,579 INFO com.fabienit.biblioapi.web.controllers.LibraryController [http-nio-auto-26-exec-2] Deleting library from database: id: 1
+2022-11-23 17:44:53,919 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Starting RegisteredUserControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:44:53,919 DEBUG com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:44:53,919 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] The following profiles are active: integration
+2022-11-23 17:44:58,365 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:44:59,386 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Started RegisteredUserControllerTest in 5.538 seconds (JVM running for 168.583)
+2022-11-23 17:45:00,066 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-auto-27-exec-1] Providing registeredUser resource from database: registeredUser id: 1
+2022-11-23 17:45:00,255 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-auto-27-exec-2] Updating registeredUser in database, id: 1
+2022-11-23 17:45:00,378 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Starting RegisteredUserControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:00,379 DEBUG com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:00,380 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:03,620 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:04,222 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Started RegisteredUserControllerTest in 3.886 seconds (JVM running for 173.419)
+2022-11-23 17:45:04,584 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-auto-28-exec-1] Adding new registeredUser in database
+2022-11-23 17:45:04,832 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Starting RegisteredUserControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:04,832 DEBUG com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:04,833 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:08,644 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:09,216 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Started RegisteredUserControllerTest in 4.433 seconds (JVM running for 178.413)
+2022-11-23 17:45:09,531 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-auto-29-exec-1] Providing registeredUser resource from database: all registeredUser list
+2022-11-23 17:45:09,676 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Starting RegisteredUserControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:09,677 DEBUG com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:09,677 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:13,523 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:14,151 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Started RegisteredUserControllerTest in 4.551 seconds (JVM running for 183.347)
+2022-11-23 17:45:14,556 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-auto-30-exec-1] Providing registeredUser resource from database: registeredUser id: 999
+2022-11-23 17:45:14,742 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Starting RegisteredUserControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:14,743 DEBUG com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:14,743 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:17,358 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:17,870 INFO com.fabienit.biblioapi.api.controller.RegisteredUserControllerTest [main] Started RegisteredUserControllerTest in 3.18 seconds (JVM running for 187.066)
+2022-11-23 17:45:18,246 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-auto-31-exec-1] Providing registeredUser resource from database: registeredUser id: 1
+2022-11-23 17:45:18,456 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:18,456 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:18,456 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:21,230 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:21,832 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 3.489 seconds (JVM running for 191.027)
+2022-11-23 17:45:22,419 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-32-exec-1] Providing reservation resource from database: reservation id: 999
+2022-11-23 17:45:22,528 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:22,528 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:22,528 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:26,613 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:28,671 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 6.186 seconds (JVM running for 197.867)
+2022-11-23 17:45:29,388 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-33-exec-1] Providing reservation resource from database: reservation id: 1
+2022-11-23 17:45:29,787 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-33-exec-1] Deleting reservation from database: id: 1
+2022-11-23 17:45:30,889 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:30,889 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:30,890 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:35,384 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:35,964 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 5.621 seconds (JVM running for 205.16)
+2022-11-23 17:45:36,429 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-34-exec-1] Adding new reservation in database
+2022-11-23 17:45:36,625 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:36,625 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:36,627 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:40,886 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:41,696 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 5.145 seconds (JVM running for 210.893)
+2022-11-23 17:45:42,217 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-35-exec-1] Providing reservation resource from database: reservation id: 1
+2022-11-23 17:45:42,355 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-35-exec-2] Updating reservation in database, id: 1
+2022-11-23 17:45:42,705 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:42,706 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:42,707 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:45,379 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:46,269 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 3.65 seconds (JVM running for 215.466)
+2022-11-23 17:45:46,900 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-36-exec-1] Providing reservation resource from database: reservation id: 1
+2022-11-23 17:45:47,247 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:47,248 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:47,248 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:50,144 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:50,755 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 3.586 seconds (JVM running for 219.951)
+2022-11-23 17:45:51,102 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-37-exec-1] Providing reservation resource from database: all reservation list
+2022-11-23 17:45:51,218 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Starting ReservationControllerTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:51,218 DEBUG com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:51,220 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] The following profiles are active: integration
+2022-11-23 17:45:54,572 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:45:55,170 INFO com.fabienit.biblioapi.api.controller.ReservationControllerTest [main] Started ReservationControllerTest in 3.993 seconds (JVM running for 224.366)
+2022-11-23 17:45:55,536 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-auto-38-exec-1] Providing reservation list for registered user from database: user id: 1
+2022-11-23 17:45:55,921 INFO com.fabienit.biblioapi.dao.BookDaoTest [main] Starting BookDaoTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:45:55,922 DEBUG com.fabienit.biblioapi.dao.BookDaoTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:45:55,922 INFO com.fabienit.biblioapi.dao.BookDaoTest [main] The following profiles are active: integration
+2022-11-23 17:46:01,576 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:02,537 INFO com.fabienit.biblioapi.dao.BookDaoTest [main] Started BookDaoTest in 6.832 seconds (JVM running for 231.733)
+2022-11-23 17:46:03,312 INFO com.fabienit.biblioapi.dao.BookDaoTest [main] Starting BookDaoTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:03,312 DEBUG com.fabienit.biblioapi.dao.BookDaoTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:03,312 INFO com.fabienit.biblioapi.dao.BookDaoTest [main] The following profiles are active: integration
+2022-11-23 17:46:06,702 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:07,295 INFO com.fabienit.biblioapi.dao.BookDaoTest [main] Started BookDaoTest in 4.037 seconds (JVM running for 236.492)
+2022-11-23 17:46:07,600 INFO com.fabienit.biblioapi.dao.BorrowDaoIntegrationTest [main] Starting BorrowDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:07,600 DEBUG com.fabienit.biblioapi.dao.BorrowDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:07,600 INFO com.fabienit.biblioapi.dao.BorrowDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:10,080 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:10,576 INFO com.fabienit.biblioapi.dao.BorrowDaoIntegrationTest [main] Started BorrowDaoIntegrationTest in 3.029 seconds (JVM running for 239.772)
+2022-11-23 17:46:11,232 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:11,233 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:11,233 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:13,264 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:13,782 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.586 seconds (JVM running for 242.979)
+2022-11-23 17:46:14,058 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:14,059 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:14,059 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:16,424 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:17,364 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 3.35 seconds (JVM running for 246.56)
+2022-11-23 17:46:17,851 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:17,852 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:17,852 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:19,906 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:20,402 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.589 seconds (JVM running for 249.598)
+2022-11-23 17:46:20,589 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:20,590 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:20,590 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:22,605 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:23,322 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.768 seconds (JVM running for 252.519)
+2022-11-23 17:46:23,500 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:23,501 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:23,501 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:25,178 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:25,719 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.253 seconds (JVM running for 254.916)
+2022-11-23 17:46:25,891 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:25,891 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:25,892 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:27,613 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:28,099 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.244 seconds (JVM running for 257.296)
+2022-11-23 17:46:28,367 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:28,368 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:28,368 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:30,262 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:30,746 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.422 seconds (JVM running for 259.942)
+2022-11-23 17:46:30,958 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:30,959 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:30,960 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:32,827 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:33,404 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.483 seconds (JVM running for 262.6)
+2022-11-23 17:46:33,606 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:33,607 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:33,607 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:38,211 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:39,179 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 5.606 seconds (JVM running for 268.375)
+2022-11-23 17:46:40,261 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:40,262 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:40,262 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:43,097 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:43,767 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 3.56 seconds (JVM running for 272.963)
+2022-11-23 17:46:44,072 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Starting ReservationDaoIntegrationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:44,073 DEBUG com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:44,073 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] The following profiles are active: integration
+2022-11-23 17:46:46,406 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:46,964 INFO com.fabienit.biblioapi.dao.ReservationDaoIntegrationTest [main] Started ReservationDaoIntegrationTest in 2.936 seconds (JVM running for 276.16)
+2022-11-23 17:46:47,527 INFO com.fabienit.biblioapi.manager.impl.unit.AvailableCopieManagerImplTest [main] Starting AvailableCopieManagerImplTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:47,527 DEBUG com.fabienit.biblioapi.manager.impl.unit.AvailableCopieManagerImplTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:47,527 INFO com.fabienit.biblioapi.manager.impl.unit.AvailableCopieManagerImplTest [main] The following profiles are active: integration
+2022-11-23 17:46:49,510 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:50,017 INFO com.fabienit.biblioapi.manager.impl.unit.AvailableCopieManagerImplTest [main] Started AvailableCopieManagerImplTest in 2.528 seconds (JVM running for 279.213)
+2022-11-23 17:46:50,563 DEBUG com.fabienit.biblioapi.manager.impl.OutDatedReservationManagerImpl [main] Deleting outdated reservations
+2022-11-23 17:46:50,866 INFO com.fabienit.biblioapi.model.beans.BorrowTest [main] Starting BorrowTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:50,867 DEBUG com.fabienit.biblioapi.model.beans.BorrowTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:50,868 INFO com.fabienit.biblioapi.model.beans.BorrowTest [main] The following profiles are active: integration
+2022-11-23 17:46:53,239 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:53,787 INFO com.fabienit.biblioapi.model.beans.BorrowTest [main] Started BorrowTest in 2.95 seconds (JVM running for 282.984)
+2022-11-23 17:46:53,847 INFO com.fabienit.biblioapi.model.beans.LibraryTest [main] Starting LibraryTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:53,848 DEBUG com.fabienit.biblioapi.model.beans.LibraryTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:53,849 INFO com.fabienit.biblioapi.model.beans.LibraryTest [main] The following profiles are active: integration
+2022-11-23 17:46:55,845 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:56,344 INFO com.fabienit.biblioapi.model.beans.LibraryTest [main] Started LibraryTest in 2.525 seconds (JVM running for 285.541)
+2022-11-23 17:46:56,480 INFO com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] Starting RegisteredUserTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:56,481 DEBUG com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:56,481 INFO com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] The following profiles are active: integration
+2022-11-23 17:46:58,827 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:46:59,508 INFO com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] Started RegisteredUserTest in 3.083 seconds (JVM running for 288.705)
+2022-11-23 17:46:59,615 INFO com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] Starting RegisteredUserTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:46:59,615 DEBUG com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:46:59,615 INFO com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] The following profiles are active: integration
+2022-11-23 17:47:01,409 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:47:01,891 INFO com.fabienit.biblioapi.model.beans.RegisteredUserTest [main] Started RegisteredUserTest in 2.31 seconds (JVM running for 291.088)
+2022-11-23 17:47:01,998 INFO com.fabienit.biblioapi.model.beans.ReservationTest [main] Starting ReservationTest on FABPC with PID 18008 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10\backendApiBiblio)
+2022-11-23 17:47:01,998 DEBUG com.fabienit.biblioapi.model.beans.ReservationTest [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-11-23 17:47:01,998 INFO com.fabienit.biblioapi.model.beans.ReservationTest [main] The following profiles are active: integration
+2022-11-23 17:47:04,010 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$a438ea55 [main] Set Swagger2 documentation
+2022-11-23 17:47:04,557 INFO com.fabienit.biblioapi.model.beans.ReservationTest [main] Started ReservationTest in 2.591 seconds (JVM running for 293.754)

@@ -1,0 +1,132 @@
+<div>
+  <h2 id="page-heading" data-cy="UserRegisteredHeading">
+    <span jhiTranslate="aeroclubpassionApp.userRegistered.home.title">User Registereds</span>
+
+    <div class="d-flex justify-content-end">
+      <button class="btn btn-info mr-2" (click)="loadPage()" [disabled]="isLoading">
+        <fa-icon icon="sync" [spin]="isLoading"></fa-icon>
+        <span jhiTranslate="aeroclubpassionApp.userRegistered.home.refreshListLabel">Refresh List</span>
+      </button>
+
+      <button
+        id="jh-create-entity"
+        data-cy="entityCreateButton"
+        class="btn btn-primary jh-create-entity create-user-registered"
+        [routerLink]="['/user-registered/new']"
+      >
+        <fa-icon icon="plus"></fa-icon>
+        <span jhiTranslate="aeroclubpassionApp.userRegistered.home.createLabel"> Create a new User Registered </span>
+      </button>
+    </div>
+  </h2>
+
+  <jhi-alert-error></jhi-alert-error>
+
+  <jhi-alert></jhi-alert>
+
+  <div class="alert alert-warning" id="no-result" *ngIf="userRegistereds?.length === 0">
+    <span jhiTranslate="aeroclubpassionApp.userRegistered.home.notFound">No userRegistereds found</span>
+  </div>
+
+  <div class="table-responsive" id="entities" *ngIf="userRegistereds && userRegistereds.length > 0">
+    <table class="table table-striped" aria-describedby="page-heading">
+      <thead>
+        <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" (sortChange)="loadPage()">
+          <th scope="col" jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+          <th scope="col" jhiSortBy="nom">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.nom">Nom</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="prenom">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.prenom">Prenom</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="telephone">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.telephone">Telephone</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="mail">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.mail">Mail</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="adresse">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.adresse">Adresse</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="codePostal">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.codePostal">Code Postal</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="commune">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.commune">Commune</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="heureVol">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.heureVol">Heure Vol</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col" jhiSortBy="user.id">
+            <span jhiTranslate="aeroclubpassionApp.userRegistered.user">User</span> <fa-icon icon="sort"></fa-icon>
+          </th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let userRegistered of userRegistereds; trackBy: trackId" data-cy="entityTable">
+          <td>
+            <a [routerLink]="['/user-registered', userRegistered.id, 'view']">{{ userRegistered.id }}</a>
+          </td>
+          <td>{{ userRegistered.nom }}</td>
+          <td>{{ userRegistered.prenom }}</td>
+          <td>{{ userRegistered.telephone }}</td>
+          <td>{{ userRegistered.mail }}</td>
+          <td>{{ userRegistered.adresse }}</td>
+          <td>{{ userRegistered.codePostal }}</td>
+          <td>{{ userRegistered.commune }}</td>
+          <td title="{{ userRegistered.heureVol }}">{{ userRegistered.heureVol | duration }}</td>
+          <td>
+            {{ userRegistered.user?.id }}
+          </td>
+          <td class="text-right">
+            <div class="btn-group">
+              <button
+                type="submit"
+                [routerLink]="['/user-registered', userRegistered.id, 'view']"
+                class="btn btn-info btn-sm"
+                data-cy="entityDetailsButton"
+              >
+                <fa-icon icon="eye"></fa-icon>
+                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+              </button>
+
+              <button
+                type="submit"
+                [routerLink]="['/user-registered', userRegistered.id, 'edit']"
+                class="btn btn-primary btn-sm"
+                data-cy="entityEditButton"
+              >
+                <fa-icon icon="pencil-alt"></fa-icon>
+                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+              </button>
+
+              <button type="submit" (click)="delete(userRegistered)" class="btn btn-danger btn-sm" data-cy="entityDeleteButton">
+                <fa-icon icon="times"></fa-icon>
+                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="userRegistereds && userRegistereds.length > 0">
+    <div class="row justify-content-center">
+      <jhi-item-count [params]="{ page: page, totalItems: totalItems, itemsPerPage: itemsPerPage }"></jhi-item-count>
+    </div>
+
+    <div class="row justify-content-center">
+      <ngb-pagination
+        [collectionSize]="totalItems"
+        [(page)]="ngbPaginationPage"
+        [pageSize]="itemsPerPage"
+        [maxSize]="5"
+        [rotate]="true"
+        [boundaryLinks]="true"
+        (pageChange)="loadPage($event)"
+      ></ngb-pagination>
+    </div>
+  </div>
+</div>

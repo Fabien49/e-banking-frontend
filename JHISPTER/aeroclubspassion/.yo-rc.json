@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.fabienit.aeroclubspassion",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.0.0",
+    "applicationType": "monolith",
+    "baseName": "aeroclubspassion",
+    "packageName": "com.fabienit.aeroclubspassion",
+    "packageFolder": "com/fabienit/aeroclubspassion",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OTU0NzZkZGZkMDNhMWJhMmZmOGU3OWNhZTUzNWQ1ZjRiMGIzZWVjMjhmOTQ4ZTA5MGIzZWM5NzZmYzcwY2JmYjQ5YjAxYzk5MjM5MjIyZjkzOGNiYzQwYTMxMDVkOWNlN2UzZDJhMGZmY2E4MDdhZTI1ZjU4ZjM4MDQyMmZiNWQ=",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}

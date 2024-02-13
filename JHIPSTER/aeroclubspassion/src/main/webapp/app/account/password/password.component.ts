@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
 
 import { AccountService } from 'app/core/auth/account.service';
@@ -15,19 +15,13 @@ export class PasswordComponent implements OnInit {
   error = false;
   success = false;
   account$?: Observable<Account | null>;
-  passwordForm = new FormGroup({
-    currentPassword: new FormControl('', { nonNullable: true, validators: Validators.required }),
-    newPassword: new FormControl('', {
-      nonNullable: true,
-      validators: [Validators.required, Validators.minLength(4), Validators.maxLength(50)],
-    }),
-    confirmPassword: new FormControl('', {
-      nonNullable: true,
-      validators: [Validators.required, Validators.minLength(4), Validators.maxLength(50)],
-    }),
+  passwordForm = this.fb.group({
+    currentPassword: ['', [Validators.required]],
+    newPassword: ['', [Validators.required, Validators.minLength(4), Validators.maxLength(50)]],
+    confirmPassword: ['', [Validators.required, Validators.minLength(4), Validators.maxLength(50)]],
   });
 
-  constructor(private passwordService: PasswordService, private accountService: AccountService) {}
+  constructor(private passwordService: PasswordService, private accountService: AccountService, private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.account$ = this.accountService.identity();
@@ -38,14 +32,14 @@ export class PasswordComponent implements OnInit {
     this.success = false;
     this.doNotMatch = false;
 
-    const { newPassword, confirmPassword, currentPassword } = this.passwordForm.getRawValue();
-    if (newPassword !== confirmPassword) {
+    const newPassword = this.passwordForm.get(['newPassword'])!.value;
+    if (newPassword !== this.passwordForm.get(['confirmPassword'])!.value) {
       this.doNotMatch = true;
     } else {
-      this.passwordService.save(newPassword, currentPassword).subscribe({
-        next: () => (this.success = true),
-        error: () => (this.error = true),
-      });
+      this.passwordService.save(newPassword, this.passwordForm.get(['currentPassword'])!.value).subscribe(
+        () => (this.success = true),
+        () => (this.error = true)
+      );
     }
   }
 }

@@ -11,14 +11,16 @@ describe('Alert Component', () => {
   let fixture: ComponentFixture<AlertComponent>;
   let mockAlertService: AlertService;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [AlertComponent],
-      providers: [AlertService],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [AlertComponent],
+        providers: [AlertService],
+      })
+        .overrideTemplate(AlertComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(AlertComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(AlertComponent);

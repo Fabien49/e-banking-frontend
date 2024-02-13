@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 
 import { PasswordResetFinishService } from './password-reset-finish.service';
@@ -18,18 +18,12 @@ export class PasswordResetFinishComponent implements OnInit, AfterViewInit {
   success = false;
   key = '';
 
-  passwordForm = new FormGroup({
-    newPassword: new FormControl('', {
-      nonNullable: true,
-      validators: [Validators.required, Validators.minLength(4), Validators.maxLength(50)],
-    }),
-    confirmPassword: new FormControl('', {
-      nonNullable: true,
-      validators: [Validators.required, Validators.minLength(4), Validators.maxLength(50)],
-    }),
+  passwordForm = this.fb.group({
+    newPassword: ['', [Validators.required, Validators.minLength(4), Validators.maxLength(50)]],
+    confirmPassword: ['', [Validators.required, Validators.minLength(4), Validators.maxLength(50)]],
   });
 
-  constructor(private passwordResetFinishService: PasswordResetFinishService, private route: ActivatedRoute) {}
+  constructor(private passwordResetFinishService: PasswordResetFinishService, private route: ActivatedRoute, private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(params => {
@@ -50,15 +44,16 @@ export class PasswordResetFinishComponent implements OnInit, AfterViewInit {
     this.doNotMatch = false;
     this.error = false;
 
-    const { newPassword, confirmPassword } = this.passwordForm.getRawValue();
+    const newPassword = this.passwordForm.get(['newPassword'])!.value;
+    const confirmPassword = this.passwordForm.get(['confirmPassword'])!.value;
 
     if (newPassword !== confirmPassword) {
       this.doNotMatch = true;
     } else {
-      this.passwordResetFinishService.save(this.key, newPassword).subscribe({
-        next: () => (this.success = true),
-        error: () => (this.error = true),
-      });
+      this.passwordResetFinishService.save(this.key, newPassword).subscribe(
+        () => (this.success = true),
+        () => (this.error = true)
+      );
     }
   }
 }

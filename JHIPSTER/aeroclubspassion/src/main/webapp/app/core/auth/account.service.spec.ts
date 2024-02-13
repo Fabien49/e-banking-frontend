@@ -1,11 +1,11 @@
+jest.mock('@angular/router');
+jest.mock('@ngx-translate/core');
 jest.mock('app/core/auth/state-storage.service');
 
 import { Router } from '@angular/router';
-import { RouterTestingModule } from '@angular/router/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 import { TestBed } from '@angular/core/testing';
-import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { of } from 'rxjs';
+import { TranslateService } from '@ngx-translate/core';
 import { NgxWebstorageModule, SessionStorageService } from 'ngx-webstorage';
 
 import { Account } from 'app/core/auth/account.model';
@@ -39,8 +39,8 @@ describe('Account Service', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule, RouterTestingModule.withRoutes([]), TranslateModule.forRoot(), NgxWebstorageModule.forRoot()],
-      providers: [StateStorageService],
+      imports: [HttpClientTestingModule, NgxWebstorageModule.forRoot()],
+      providers: [TranslateService, StateStorageService, Router],
     });
 
     service = TestBed.inject(AccountService);
@@ -48,10 +48,7 @@ describe('Account Service', () => {
     httpMock = TestBed.inject(HttpTestingController);
     mockStorageService = TestBed.inject(StateStorageService);
     mockRouter = TestBed.inject(Router);
-    jest.spyOn(mockRouter, 'navigateByUrl').mockImplementation(() => Promise.resolve(true));
-
     mockTranslateService = TestBed.inject(TranslateService);
-    jest.spyOn(mockTranslateService, 'use').mockImplementation(() => of(''));
     sessionStorageService = TestBed.inject(SessionStorageService);
   });
 

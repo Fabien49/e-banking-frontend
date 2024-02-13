@@ -1,0 +1,11 @@
+2022-01-16 18:32:06,016 INFO com.oc.webapp.WebappApplication [main] No active profile set, falling back to default profiles: default
+2022-01-16 18:32:08,164 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: C:\Users\FaB\.m2\repository\org\springframework\boot\spring-boot\2.2.2.RELEASE\spring-boot-2.2.2.RELEASE.jar
+2022-01-16 18:32:08,165 DEBUG com.oc.webapp.WebappApplication$1 [main] Code archive: C:\Users\FaB\.m2\repository\org\springframework\boot\spring-boot\2.2.2.RELEASE\spring-boot-2.2.2.RELEASE.jar
+2022-01-16 18:32:08,166 DEBUG com.oc.webapp.WebappApplication$1 [main] None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2022-01-16 18:32:10,661 INFO com.oc.webapp.WebappApplication [main] Started WebappApplication in 6.542 seconds (JVM running for 8.154)
+2022-01-16 18:32:49,519 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-5] Reach url: / - GET
+2022-01-16 18:33:13,087 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-3] Reach url: /connexion - GET
+2022-01-16 18:33:19,443 INFO com.oc.webapp.web.controllers.WebappController [https-jsse-nio-9002-exec-7] Reach url: / - GET
+2022-01-16 18:33:19,755 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id
+2022-01-16 18:33:20,104 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting active borrows for current authenticated user
+2022-01-16 18:33:20,105 DEBUG com.oc.webapp.service.impl.WebappServiceImpl [https-jsse-nio-9002-exec-7] Getting authenticated current user id

@@ -1,0 +1,39 @@
+{
+  "name": "Revision",
+  "fields": [
+    {
+      "fieldName": "niveaux",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "pression",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "carroserie",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "avion",
+      "otherEntityRelationshipName": "revision",
+      "relationshipName": "avions"
+    }
+  ],
+  "entityTableName": "revisions",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231030133308"
+}

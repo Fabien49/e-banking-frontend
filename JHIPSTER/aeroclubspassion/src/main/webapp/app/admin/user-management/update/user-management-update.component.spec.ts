@@ -15,23 +15,25 @@ describe('User Management Update Component', () => {
   let fixture: ComponentFixture<UserManagementUpdateComponent>;
   let service: UserManagementService;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      declarations: [UserManagementUpdateComponent],
-      providers: [
-        FormBuilder,
-        {
-          provide: ActivatedRoute,
-          useValue: {
-            data: of({ user: new User(123, 'user', 'first', 'last', 'first@last.com', true, 'en', [Authority.USER], 'admin') }),
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [UserManagementUpdateComponent],
+        providers: [
+          FormBuilder,
+          {
+            provide: ActivatedRoute,
+            useValue: {
+              data: of({ user: new User(123, 'user', 'first', 'last', 'first@last.com', true, 'en', [Authority.USER], 'admin') }),
+            },
           },
-        },
-      ],
+        ],
+      })
+        .overrideTemplate(UserManagementUpdateComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(UserManagementUpdateComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(UserManagementUpdateComponent);
@@ -61,15 +63,16 @@ describe('User Management Update Component', () => {
       [],
       fakeAsync(() => {
         // GIVEN
-        const entity = { id: 123 };
+        const entity = new User(123);
         jest.spyOn(service, 'update').mockReturnValue(of(entity));
-        comp.editForm.patchValue(entity);
+        comp.user = entity;
+        comp.editForm.patchValue({ id: entity.id });
         // WHEN
         comp.save();
         tick(); // simulate async
 
         // THEN
-        expect(service.update).toHaveBeenCalledWith(expect.objectContaining(entity));
+        expect(service.update).toHaveBeenCalledWith(entity);
         expect(comp.isSaving).toEqual(false);
       })
     ));
@@ -78,16 +81,15 @@ describe('User Management Update Component', () => {
       [],
       fakeAsync(() => {
         // GIVEN
-        const entity = { login: 'foo' } as User;
+        const entity = new User();
         jest.spyOn(service, 'create').mockReturnValue(of(entity));
-        comp.editForm.patchValue(entity);
+        comp.user = entity;
         // WHEN
         comp.save();
         tick(); // simulate async
 
         // THEN
-        expect(comp.editForm.getRawValue().id).toBeNull();
-        expect(service.create).toHaveBeenCalledWith(expect.objectContaining(entity));
+        expect(service.create).toHaveBeenCalledWith(entity);
         expect(comp.isSaving).toEqual(false);
       })
     ));

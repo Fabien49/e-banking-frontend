@@ -1,55 +1,50 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 
 import { LANGUAGES } from 'app/config/language.constants';
 import { User } from '../user-management.model';
 import { UserManagementService } from '../service/user-management.service';
 
-const initialUser: User = {
-  langKey: 'fr',
-};
-
 @Component({
   selector: 'jhi-user-mgmt-update',
   templateUrl: './user-management-update.component.html',
 })
 export class UserManagementUpdateComponent implements OnInit {
+  user!: User;
   languages = LANGUAGES;
   authorities: string[] = [];
   isSaving = false;
 
-  editForm = new FormGroup({
-    id: new FormControl(initialUser.id),
-    login: new FormControl(initialUser.login, {
-      nonNullable: true,
-      validators: [
+  editForm = this.fb.group({
+    id: [],
+    login: [
+      '',
+      [
         Validators.required,
         Validators.minLength(1),
         Validators.maxLength(50),
         Validators.pattern('^[a-zA-Z0-9!$&*+=?^_`{|}~.-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$|^[_.@A-Za-z0-9-]+$'),
       ],
-    }),
-    firstName: new FormControl(initialUser.firstName, { validators: [Validators.maxLength(50)] }),
-    lastName: new FormControl(initialUser.lastName, { validators: [Validators.maxLength(50)] }),
-    email: new FormControl(initialUser.email, {
-      nonNullable: true,
-      validators: [Validators.minLength(5), Validators.maxLength(254), Validators.email],
-    }),
-    activated: new FormControl(initialUser.activated, { nonNullable: true }),
-    langKey: new FormControl(initialUser.langKey, { nonNullable: true }),
-    authorities: new FormControl(initialUser.authorities, { nonNullable: true }),
+    ],
+    firstName: ['', [Validators.maxLength(50)]],
+    lastName: ['', [Validators.maxLength(50)]],
+    email: ['', [Validators.minLength(5), Validators.maxLength(254), Validators.email]],
+    activated: [],
+    langKey: [],
+    authorities: [],
   });
 
-  constructor(private userService: UserManagementService, private route: ActivatedRoute) {}
+  constructor(private userService: UserManagementService, private route: ActivatedRoute, private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.route.data.subscribe(({ user }) => {
       if (user) {
-        if (user.id === undefined) {
-          user.activated = true;
+        this.user = user;
+        if (this.user.id === undefined) {
+          this.user.activated = true;
         }
-        this.editForm.patchValue(user);
+        this.updateForm(user);
       }
     });
     this.userService.authorities().subscribe(authorities => (this.authorities = authorities));
@@ -61,18 +56,41 @@ export class UserManagementUpdateComponent implements OnInit {
 
   save(): void {
     this.isSaving = true;
-    const user = this.editForm.getRawValue();
-    if (user.id !== null) {
-      this.userService.update(user).subscribe({
-        next: () => this.onSaveSuccess(),
-        error: () => this.onSaveError(),
-      });
+    this.updateUser(this.user);
+    if (this.user.id !== undefined) {
+      this.userService.update(this.user).subscribe(
+        () => this.onSaveSuccess(),
+        () => this.onSaveError()
+      );
     } else {
-      this.userService.create(user).subscribe({
-        next: () => this.onSaveSuccess(),
-        error: () => this.onSaveError(),
-      });
+      this.userService.create(this.user).subscribe(
+        () => this.onSaveSuccess(),
+        () => this.onSaveError()
+      );
     }
+  }
+
+  private updateForm(user: User): void {
+    this.editForm.patchValue({
+      id: user.id,
+      login: user.login,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      email: user.email,
+      activated: user.activated,
+      langKey: user.langKey,
+      authorities: user.authorities,
+    });
+  }
+
+  private updateUser(user: User): void {
+    user.login = this.editForm.get(['login'])!.value;
+    user.firstName = this.editForm.get(['firstName'])!.value;
+    user.lastName = this.editForm.get(['lastName'])!.value;
+    user.email = this.editForm.get(['email'])!.value;
+    user.activated = this.editForm.get(['activated'])!.value;
+    user.langKey = this.editForm.get(['langKey'])!.value;
+    user.authorities = this.editForm.get(['authorities'])!.value;
   }
 
   private onSaveSuccess(): void {

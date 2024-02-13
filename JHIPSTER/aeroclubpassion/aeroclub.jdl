@@ -1,0 +1,94 @@
+
+entity Aeroclub (aeroclubs) {
+    oaci String required maxlength(80)
+    nom String required maxlength(80)
+    type String required maxlength(80)
+    telephone String required maxlength(80)
+    mail String required unique maxlength(80)
+    adresse String required maxlength(150)
+    codePostal String required maxlength(80)
+    commune String required maxlength(80)
+}
+
+entity UserRegistered (userRegistereds) {
+    nom String maxlength(80)
+    prenom String maxlength(80)
+    telephone String maxlength(10)
+    mail String maxlength(80)
+    adresse String maxlength(150)
+    codePostal String maxlength(5)
+    commune String maxlength(80)
+    heureVol Duration
+}
+
+
+entity Tarif (tarifs) {
+    taxeAtterrissage Double
+    taxeParking Double
+    carburant Double
+}
+
+entity Avion (avions) {
+    marque String required maxlength(80)
+    type String
+    moteur String
+    puissance Integer
+    place Integer required
+    autonomie Duration
+    usage String
+    heures Duration required
+    image ImageBlob
+}
+
+entity Reservation (reservations) {
+    dateEmprunt ZonedDateTime
+    dateRetour ZonedDateTime
+}
+
+entity Revision (revisions) {
+    niveaux Boolean
+    pression Boolean
+    carroserie Boolean
+    date ZonedDateTime
+}
+
+entity Atelier (ateliers) {
+    compteurChgtMoteur Integer
+    compteurCarrosserie Integer
+    compteurHelisse Integer
+    date ZonedDateTime
+}
+
+
+relationship ManyToOne {
+    UserRegistered{User} to User
+    Reservation{avions} to Avion
+    Reservation{userRegistereds(nom)} to UserRegistered
+}
+
+relationship OneToMany {
+    Atelier{avions} to Avion
+    Revision{avions} to Avion
+}
+
+
+// Set pagination options
+paginate Aeroclub with pagination
+paginate Avion with pagination
+paginate Reservation with pagination
+paginate Revision with pagination
+paginate Atelier with pagination
+paginate Tarif with pagination
+paginate UserRegistered with pagination
+
+// Use Data Transfer Objects (DTO)
+// dto * with mapstruct
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
+
+filter Aeroclub, UserRegistered, Avion, Reservation, Revision, Atelier, Tarif

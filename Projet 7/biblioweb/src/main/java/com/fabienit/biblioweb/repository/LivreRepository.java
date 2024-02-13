@@ -1,6 +1,6 @@
-package com.fabienit.biblioapi.repository;
+package com.fabienit.biblioweb.repository;
 
-import com.fabienit.biblioapi.model.Livre;
+import com.fabienit.biblioweb.model.Livre;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

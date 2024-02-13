@@ -4,17 +4,12 @@
     <remote-repository>
       <option name="id" value="project.local" />
       <option name="name" value="project.local" />
-      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/../src/lib/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Central Repository" />
-      <option name="url" value="https://repo.maven.apache.org/maven2" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/../src/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="project.local" />
       <option name="name" value="project.local" />
-      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/../src/lib/" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/src/lib/${file.name}" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="project.local" />
@@ -22,14 +17,29 @@
       <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src/../src/lib/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Maven Central repository" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-business/src/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="jboss.community" />
-      <option name="name" value="JBoss Community repository" />
-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet9_testezVosDeveloppementJava\src\myerp-technical/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-business/src/lib/myerp-business" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet 9\src/../src/lib/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="project.local" />
@@ -39,7 +49,172 @@
     <remote-repository>
       <option name="id" value="project.local" />
       <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet9_testezVosDeveloppementJava\src\myerp-consumer/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-model/../src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-model/src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/../src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-business/src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src/src/lib/myerp" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet9_testezVosDeveloppementJava\src\myerp-model/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-model/src/lib/myerp-model" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src/../src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src/src/lib/${file.name}" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/src/lib/myerp-technical" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-business/../src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet 9\src\myerp-consumer/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet 9\src\myerp-model/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet 9\src\myerp-business/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/src/lib/${file.name}" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet9_testezVosDeveloppementJava\src/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet9_testezVosDeveloppementJava\src\myerp-business/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
       <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-business/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-consumer/src/lib/myerp-consumer" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-model/src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src/src/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-model/src/lib/${file.name}" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-business/src/lib/${file.name}" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src/src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\Projet 9\src\myerp-technical/../src/lib/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="project.local" />
+      <option name="name" value="project.local" />
+      <option name="url" value="file://C:\Users\FaB\Git\Projet 9\projet_B4_FR\src\myerp-technical/src/" />
     </remote-repository>
   </component>
 </project>

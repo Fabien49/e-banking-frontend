@@ -14,14 +14,41 @@
 # ===================================================================
 
 spring:
+  profiles:
+    # Uncomment the following line to enable tests against production database type rather than H2, using Testcontainers
+    #active: testcontainers
   application:
     name: aeroclubspassion
-  # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
-  liquibase:
-    contexts: test
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:h2:mem:aeroclubspassion;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    name:
+    username:
+    password:
+    hikari:
+      auto-commit: false
   jackson:
     serialization:
       write-durations-as-timestamps: false
+  jpa:
+    database-platform: tech.jhipster.domain.util.FixedH2Dialect
+    open-in-view: false
+    hibernate:
+      ddl-auto: none
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+    properties:
+      hibernate.id.new_generator_mappings: true
+      hibernate.connection.provider_disables_autocommit: true
+      hibernate.cache.use_second_level_cache: false
+      hibernate.cache.use_query_cache: false
+      hibernate.generate_statistics: false
+      hibernate.hbm2ddl.auto: validate
+      hibernate.jdbc.time_zone: UTC
+      hibernate.query.fail_on_pagination_over_collection_fetch: true
+  liquibase:
+    contexts: test
   mail:
     host: localhost
   main:
@@ -38,7 +65,7 @@ spring:
     scheduling:
       thread-name-prefix: aeroclubspassion-scheduling-
       pool:
-        size: 20
+        size: 1
   thymeleaf:
     mode: HTML
 
@@ -51,12 +78,10 @@ server:
 #
 # Full reference is available at: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
+
 jhipster:
   clientApp:
     name: 'aeroclubspassionApp'
-  mail:
-    from: aeroclubspassion@localhost.com
-    base-url: http://127.0.0.1:8080
   logging:
     # To test json console appender
     use-json-format: false
@@ -65,14 +90,16 @@ jhipster:
       host: localhost
       port: 5000
       queue-size: 512
+  mail:
+    from: test@localhost
+    base-url: http://127.0.0.1:8080
   security:
     authentication:
       jwt:
         # This token must be encoded using Base64 (you can type `echo 'secret-key'|base64` on your command line)
-        base64-secret: NTg1YWM0MzU3YzJlM2U4MjI4MGE1ZmI0NTI2YzE2MDhlN2Y4ZDYxNjdhMzUwZTdlMjAwNjU2NDZkMTZkZTM5NmNhNmViNjgwZDQ1NTJmNjA1MDFhMGI0Zjk4MDcwMTk1ZWU0MjFjZDY5MzU2NzBhOWE5Y2ZmNTFiNGI3OTViNmY=
+        base64-secret: ZTMwYmIwNzBmMDhlMDJjNjg4ZmRlZjJmZDA2MjAwMGVkZWExOTI1YThkZTFkZDcyNGNhZGE4YzI2YWQ2OTQzYzUwNWI1OGE4NzA3MGMwYjE2YmZhMTQwZGMwYzA2ODVmOTA4NzMyZjQ0MjY2MTY1OGYzNmIyMTllZTRkNGI4YTY=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
-
 # ===================================================================
 # Application specific properties
 # Add your own application properties here, see the ApplicationProperties class
@@ -83,7 +110,3 @@ jhipster:
 # ===================================================================
 
 # application:
-management:
-  health:
-    mail:
-      enabled: false

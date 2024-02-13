@@ -48,6 +48,15 @@ public class CacheConfiguration {
             createCache(cm, com.fabienit.aeroclubpassion.domain.User.class.getName());
             createCache(cm, com.fabienit.aeroclubpassion.domain.Authority.class.getName());
             createCache(cm, com.fabienit.aeroclubpassion.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Aeroclub.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.UserRegistered.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Tarif.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Avion.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Reservation.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Revision.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Revision.class.getName() + ".avions");
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Atelier.class.getName());
+            createCache(cm, com.fabienit.aeroclubpassion.domain.Atelier.class.getName() + ".avions");
             // jhipster-needle-ehcache-add-entry
         };
     }

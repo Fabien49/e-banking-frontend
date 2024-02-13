@@ -1,6 +1,6 @@
-package com.fabienit.biblioapi.repository;
+package com.fabienit.biblioweb.repository;
 
-import com.fabienit.biblioapi.model.Role;
+import com.fabienit.biblioweb.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

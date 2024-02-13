@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Bibliothèques d'Angers</title>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <div class="bg-primary">
+    <div class="container">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+          <a class="navbar-brand navbar-right" href="home.html">
+            <!-- <img src="logoAmis.gif" width="40" height="30" alt="Site logo"> -->Les amis de l'escalade</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.html">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="lesson.html">Sites</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reste de la page -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="border-secondary shadow card mt-3 px-3 py-3">
+            <h2 class="text-center">Connexion</h2>
+            <hr>
+            <form>
+              <div class="row">
+                <div class="form-group col-6 mt-auto mx-auto">
+                  <label for="email">Mail :</label>
+                  <input class="form-control" type="email" placeholder="Email" id="email" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-6 mt-auto mx-auto">
+                  <label for="password">Mot de passe :</label>
+                  <input class="form-control" type="password" placeholder="Password" id="password" required>
+                </div>  
+              </div>  
+              <div class="row">       
+                <div class="form-group col-6 mt-auto mx-auto">
+                  <button type="submit" class="form-control btn btn-primary ">Envoyer</button>          
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">        
+          <div class="col">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item"><a href="#">A propos</a>
+              </li>
+              <li class="list-inline-item">&middot;</li>
+              <li class="list-inline-item"><a href="#">Vie privée</a>
+              </li>
+              <li class="list-inline-item">&middot;</li>
+              <li class="list-inline-item"><a href="#">Conditions d'utilisations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+  <!-- Optional JavaScript -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script type="text/javascript">
+    var password = document.getElementById("password")
+    , confirm_password = document.getElementById("confirm_password");
+
+    function validatePassword(){
+      if(password.value != confirm_password.value) {
+        confirm_password.setCustomValidity("Passwords Don't Match");
+      } else {
+        confirm_password.setCustomValidity('');
+      }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+  </script>
+  <script type="text/javascript">
+    var email = document.getElementById("email")
+    , confirm_email = document.getElementById("confirm_email");
+
+    function validateEmail(){
+      if(email.value != confirm_email.value) {
+        confirm_email.setCustomValidity("Email Don't Match");
+      } else {
+        confirm_email.setCustomValidity('');
+      }
+    }
+
+    email.onchange = validateEmail;
+    confirm_email.onkeyup = validateEmail;
+  </script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,81 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <div *ngIf="avion">
+      <h2 data-cy="avionDetailsHeading"><span jhiTranslate="aeroclubpassionApp.avion.detail.title">Avion</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ avion.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.marque">Marque</span></dt>
+        <dd>
+          <span>{{ avion.marque }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.type">Type</span></dt>
+        <dd>
+          <span>{{ avion.type }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.moteur">Moteur</span></dt>
+        <dd>
+          <span>{{ avion.moteur }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.puissance">Puissance</span></dt>
+        <dd>
+          <span>{{ avion.puissance }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.place">Place</span></dt>
+        <dd>
+          <span>{{ avion.place }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.autonomie">Autonomie</span></dt>
+        <dd>
+          <span>{{ avion.autonomie | duration }} ({{ avion.autonomie }})</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.usage">Usage</span></dt>
+        <dd>
+          <span>{{ avion.usage }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.heures">Heures</span></dt>
+        <dd>
+          <span>{{ avion.heures | duration }} ({{ avion.heures }})</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.image">Image</span></dt>
+        <dd>
+          <div *ngIf="avion.image">
+            <a (click)="openFile(avion.image, avion.imageContentType)">
+              <img [src]="'data:' + avion.imageContentType + ';base64,' + avion.image" style="max-width: 100%" alt="avion image" />
+            </a>
+            {{ avion.imageContentType }}, {{ byteSize(avion.image) }}
+          </div>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.atelier">Atelier</span></dt>
+        <dd>
+          <div *ngIf="avion.atelier">
+            <a [routerLink]="['/atelier', avion.atelier?.id, 'view']">{{ avion.atelier?.id }}</a>
+          </div>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.avion.revision">Revision</span></dt>
+        <dd>
+          <div *ngIf="avion.revision">
+            <a [routerLink]="['/revision', avion.revision?.id, 'view']">{{ avion.revision?.id }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/avion', avion.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

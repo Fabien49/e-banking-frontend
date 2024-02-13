@@ -1,0 +1,32 @@
+{
+  "aeroclubpassionApp": {
+    "userRegistered": {
+      "home": {
+        "title": "User Registereds",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new User Registered",
+        "createOrEditLabel": "Create or edit a User Registered",
+        "notFound": "No User Registereds found"
+      },
+      "created": "A new User Registered is created with identifier {{ param }}",
+      "updated": "A User Registered is updated with identifier {{ param }}",
+      "deleted": "A User Registered is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete User Registered {{ id }}?"
+      },
+      "detail": {
+        "title": "User Registered"
+      },
+      "id": "ID",
+      "nom": "Nom",
+      "prenom": "Prenom",
+      "telephone": "Telephone",
+      "mail": "Mail",
+      "adresse": "Adresse",
+      "codePostal": "Code Postal",
+      "commune": "Commune",
+      "heureVol": "Heure Vol",
+      "user": "User"
+    }
+  }
+}

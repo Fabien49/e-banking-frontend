@@ -1,0 +1,39 @@
+{
+  "name": "Atelier",
+  "fields": [
+    {
+      "fieldName": "compteurChgtMoteur",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "compteurCarrosserie",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "compteurHelisse",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "date",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "avion",
+      "otherEntityRelationshipName": "atelier",
+      "relationshipName": "avions"
+    }
+  ],
+  "entityTableName": "ateliers",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231030133309"
+}

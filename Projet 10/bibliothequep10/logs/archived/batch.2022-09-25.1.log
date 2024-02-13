@@ -1,0 +1,10 @@
+2022-09-25 21:12:33,459 INFO com.fabienit.bibliobatch.BibliobatchApplication [main] No active profile set, falling back to default profiles: default
+2022-09-25 21:12:37,244 INFO com.fabienit.bibliobatch.BibliobatchApplication [main] Started BibliobatchApplication in 5.061 seconds (JVM running for 7.708)
+2022-09-25 21:13:00,748 INFO com.fabienit.bibliobatch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
+2022-09-25 21:15:47,843 INFO com.fabienit.bibliobatch.BibliobatchApplication [main] No active profile set, falling back to default profiles: default
+2022-09-25 21:15:55,697 INFO com.fabienit.bibliobatch.BibliobatchApplication [main] Started BibliobatchApplication in 10.399 seconds (JVM running for 11.602)
+2022-09-25 21:16:00,155 INFO com.fabienit.bibliobatch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
+2022-09-25 21:43:44,463 INFO com.fabienit.bibliobatch.BibliobatchApplication [main] No active profile set, falling back to default profiles: default
+2022-09-25 21:43:47,455 INFO com.fabienit.bibliobatch.BibliobatchApplication [main] Started BibliobatchApplication in 4.307 seconds (JVM running for 5.337)
+2022-09-25 21:44:00,692 INFO com.fabienit.bibliobatch.service.impl.EmailServiceImpl [scheduling-1] Sending notification emails for available reservations
+2022-09-25 21:44:00,976 DEBUG com.fabienit.bibliobatch.service.impl.EmailServiceImpl [scheduling-1] Generating mail data for reservation, id:1

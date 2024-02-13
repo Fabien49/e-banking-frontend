@@ -1,0 +1,66 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <div *ngIf="userRegistered">
+      <h2 data-cy="userRegisteredDetailsHeading">
+        <span jhiTranslate="aeroclubpassionApp.userRegistered.detail.title">User Registered</span>
+      </h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ userRegistered.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.nom">Nom</span></dt>
+        <dd>
+          <span>{{ userRegistered.nom }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.prenom">Prenom</span></dt>
+        <dd>
+          <span>{{ userRegistered.prenom }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.telephone">Telephone</span></dt>
+        <dd>
+          <span>{{ userRegistered.telephone }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.mail">Mail</span></dt>
+        <dd>
+          <span>{{ userRegistered.mail }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.adresse">Adresse</span></dt>
+        <dd>
+          <span>{{ userRegistered.adresse }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.codePostal">Code Postal</span></dt>
+        <dd>
+          <span>{{ userRegistered.codePostal }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.commune">Commune</span></dt>
+        <dd>
+          <span>{{ userRegistered.commune }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.heureVol">Heure Vol</span></dt>
+        <dd>
+          <span>{{ userRegistered.heureVol | duration }} ({{ userRegistered.heureVol }})</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.userRegistered.user">User</span></dt>
+        <dd>
+          <span>{{ userRegistered.user?.id }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/user-registered', userRegistered.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

@@ -7,6 +7,8 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "aeroclub": "Aeroclub",
+        "tarif": "Tarif",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
@@ -97,8 +99,7 @@
       "edit": "Edit",
       "open": "Open",
       "save": "Save",
-      "view": "View",
-      "show": "Show {{otherEntity}}"
+      "view": "View"
     },
     "detail": {
       "field": "Field",
@@ -119,11 +120,6 @@
       "number": "This field should be a number.",
       "datetimelocal": "This field should be a date and time.",
       "patternLogin": "This field can only contain letters, digits and e-mail addresses."
-    },
-    "filters": {
-      "set": "Following filters are set",
-      "clear": "Clear filter",
-      "clearAll": "Clear all filters"
     }
   },
   "error": {

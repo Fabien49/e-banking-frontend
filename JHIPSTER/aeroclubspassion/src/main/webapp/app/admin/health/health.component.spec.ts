@@ -12,14 +12,16 @@ describe('HealthComponent', () => {
   let fixture: ComponentFixture<HealthComponent>;
   let service: HealthService;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      declarations: [HealthComponent],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [HealthComponent],
+      })
+        .overrideTemplate(HealthComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(HealthComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(HealthComponent);
@@ -31,8 +33,8 @@ describe('HealthComponent', () => {
     it('should get badge class', () => {
       const upBadgeClass = comp.getBadgeClass('UP');
       const downBadgeClass = comp.getBadgeClass('DOWN');
-      expect(upBadgeClass).toEqual('bg-success');
-      expect(downBadgeClass).toEqual('bg-danger');
+      expect(upBadgeClass).toEqual('badge-success');
+      expect(downBadgeClass).toEqual('badge-danger');
     });
   });
 

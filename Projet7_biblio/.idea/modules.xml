@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Souleyamane_example_webapp_api.iml" filepath="$PROJECT_DIR$/.idea/Souleyamane_example_webapp_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OC_Bibliotheque_P10Full/api/api.iml" filepath="$PROJECT_DIR$/OC_Bibliotheque_P10Full/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OC_Bibliotheque_P10Full/batch/batch.iml" filepath="$PROJECT_DIR$/OC_Bibliotheque_P10Full/batch/batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OC_Bibliotheque_P10Full/webapp/webapp.iml" filepath="$PROJECT_DIR$/OC_Bibliotheque_P10Full/webapp/webapp.iml" />
+    </modules>
+  </component>
+</project>

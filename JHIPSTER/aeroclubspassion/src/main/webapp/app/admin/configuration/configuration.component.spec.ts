@@ -11,15 +11,17 @@ describe('ConfigurationComponent', () => {
   let fixture: ComponentFixture<ConfigurationComponent>;
   let service: ConfigurationService;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      declarations: [ConfigurationComponent],
-      providers: [ConfigurationService],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [ConfigurationComponent],
+        providers: [ConfigurationService],
+      })
+        .overrideTemplate(ConfigurationComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(ConfigurationComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ConfigurationComponent);

@@ -15,15 +15,17 @@ describe('User Management Delete Component', () => {
   let service: UserManagementService;
   let mockActiveModal: NgbActiveModal;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      declarations: [UserManagementDeleteDialogComponent],
-      providers: [NgbActiveModal],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [UserManagementDeleteDialogComponent],
+        providers: [NgbActiveModal],
+      })
+        .overrideTemplate(UserManagementDeleteDialogComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(UserManagementDeleteDialogComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(UserManagementDeleteDialogComponent);

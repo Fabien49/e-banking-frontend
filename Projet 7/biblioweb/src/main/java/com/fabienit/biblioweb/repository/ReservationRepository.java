@@ -1,6 +1,6 @@
-package com.fabienit.biblioapi.repository;
+package com.fabienit.biblioweb.repository;
 
-import com.fabienit.biblioapi.model.Reservation;
+import com.fabienit.biblioweb.model.Reservation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

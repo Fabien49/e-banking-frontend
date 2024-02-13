@@ -51,21 +51,21 @@ class TokenProviderSecurityMetersTests {
     }
 
     @Test
-    void testValidTokenShouldNotCountAnything() {
+    public void testValidTokenShouldNotCountAnything() {
         Collection<Counter> counters = meterRegistry.find(INVALID_TOKENS_METER_EXPECTED_NAME).counters();
 
-        assertThat(aggregate(counters)).isZero();
+        assertThat(aggregate(counters)).isEqualTo(0);
 
         String validToken = createValidToken();
 
         tokenProvider.validateToken(validToken);
 
-        assertThat(aggregate(counters)).isZero();
+        assertThat(aggregate(counters)).isEqualTo(0);
     }
 
     @Test
-    void testTokenExpiredCount() {
-        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "expired").counter().count()).isZero();
+    public void testTokenExpiredCount() {
+        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "expired").counter().count()).isEqualTo(0);
 
         String expiredToken = createExpiredToken();
 
@@ -76,7 +76,7 @@ class TokenProviderSecurityMetersTests {
 
     @Test
     void testTokenUnsupportedCount() {
-        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "unsupported").counter().count()).isZero();
+        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "unsupported").counter().count()).isEqualTo(0);
 
         String unsupportedToken = createUnsupportedToken();
 
@@ -86,8 +86,8 @@ class TokenProviderSecurityMetersTests {
     }
 
     @Test
-    void testTokenSignatureInvalidCount() {
-        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "invalid-signature").counter().count()).isZero();
+    public void testTokenSignatureInvalidCount() {
+        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "invalid-signature").counter().count()).isEqualTo(0);
 
         String tokenWithDifferentSignature = createTokenWithDifferentSignature();
 
@@ -97,8 +97,8 @@ class TokenProviderSecurityMetersTests {
     }
 
     @Test
-    void testTokenMalformedCount() {
-        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "malformed").counter().count()).isZero();
+    public void testTokenMalformedCount() {
+        assertThat(meterRegistry.get(INVALID_TOKENS_METER_EXPECTED_NAME).tag("cause", "malformed").counter().count()).isEqualTo(0);
 
         String malformedToken = createMalformedToken();
 

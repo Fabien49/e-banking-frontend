@@ -15,7 +15,7 @@ export class TranslateDirective implements OnChanges, OnInit, OnDestroy {
   @Input() jhiTranslate!: string;
   @Input() translateValues?: { [key: string]: unknown };
 
-  private readonly directiveDestroyed = new Subject();
+  private readonly directiveDestroyed = new Subject<never>();
 
   constructor(private el: ElementRef, private translateService: TranslateService) {}
 
@@ -33,7 +33,7 @@ export class TranslateDirective implements OnChanges, OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.directiveDestroyed.next(null);
+    this.directiveDestroyed.next();
     this.directiveDestroyed.complete();
   }
 
@@ -41,11 +41,11 @@ export class TranslateDirective implements OnChanges, OnInit, OnDestroy {
     this.translateService
       .get(this.jhiTranslate, this.translateValues)
       .pipe(takeUntil(this.directiveDestroyed))
-      .subscribe({
-        next: value => {
+      .subscribe(
+        value => {
           this.el.nativeElement.innerHTML = value;
         },
-        error: () => `${translationNotFoundMessage}[${this.jhiTranslate}]`,
-      });
+        () => `${translationNotFoundMessage}[${this.jhiTranslate}]`
+      );
   }
 }

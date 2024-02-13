@@ -1,0 +1,38 @@
+{
+  "name": "Reservation",
+  "fields": [
+    {
+      "fieldName": "dateEmprunt",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "dateRetour",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "avion",
+      "otherEntityRelationshipName": "reservation",
+      "relationshipName": "avions"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "userRegistered",
+      "otherEntityRelationshipName": "reservation",
+      "relationshipName": "userRegistereds",
+      "otherEntityField": "nom"
+    }
+  ],
+  "entityTableName": "reservations",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231030133307"
+}

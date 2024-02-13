@@ -1,0 +1,110 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2
+        id="jhi-reservation-heading"
+        data-cy="ReservationCreateUpdateHeading"
+        jhiTranslate="aeroclubpassionApp.reservation.home.createOrEditLabel"
+      >
+        Create or edit a Reservation
+      </h2>
+
+      <div>
+        <jhi-alert-error></jhi-alert-error>
+
+        <div class="form-group" [hidden]="editForm.get('id')!.value == null">
+          <label class="form-control-label" jhiTranslate="global.field.id" for="field_id">ID</label>
+          <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.reservation.dateEmprunt" for="field_dateEmprunt"
+            >Date Emprunt</label
+          >
+          <div class="d-flex">
+            <input
+              id="field_dateEmprunt"
+              data-cy="dateEmprunt"
+              type="datetime-local"
+              class="form-control"
+              name="dateEmprunt"
+              formControlName="dateEmprunt"
+              placeholder="YYYY-MM-DD HH:mm"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.reservation.dateRetour" for="field_dateRetour"
+            >Date Retour</label
+          >
+          <div class="d-flex">
+            <input
+              id="field_dateRetour"
+              data-cy="dateRetour"
+              type="datetime-local"
+              class="form-control"
+              name="dateRetour"
+              formControlName="dateRetour"
+              placeholder="YYYY-MM-DD HH:mm"
+            />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.reservation.avions" for="field_avions">Avions</label>
+          <select class="form-control" id="field_avions" data-cy="avions" name="avions" formControlName="avions">
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="avionOption.id === editForm.get('avions')!.value?.id ? editForm.get('avions')!.value : avionOption"
+              *ngFor="let avionOption of avionsSharedCollection; trackBy: trackAvionById"
+            >
+              {{ avionOption.id }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.reservation.userRegistereds" for="field_userRegistereds"
+            >User Registereds</label
+          >
+          <select
+            class="form-control"
+            id="field_userRegistereds"
+            data-cy="userRegistereds"
+            name="userRegistereds"
+            formControlName="userRegistereds"
+          >
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="
+                userRegisteredOption.id === editForm.get('userRegistereds')!.value?.id
+                  ? editForm.get('userRegistereds')!.value
+                  : userRegisteredOption
+              "
+              *ngFor="let userRegisteredOption of userRegisteredsSharedCollection; trackBy: trackUserRegisteredById"
+            >
+              {{ userRegisteredOption.nom }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

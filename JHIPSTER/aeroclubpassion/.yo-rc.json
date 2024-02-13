@@ -13,7 +13,7 @@
     "blueprints": [],
     "otherModules": [],
     "pages": [],
-    "creationTimestamp": 1698312795421,
+    "creationTimestamp": 1698493591439,
     "serviceDiscoveryType": "no",
     "reactive": false,
     "authenticationType": "jwt",
@@ -22,9 +22,9 @@
     "cacheProvider": "ehcache",
     "enableHibernateCache": true,
     "databaseType": "sql",
-    "devDatabaseType": "postgresql",
+    "devDatabaseType": "h2Disk",
     "prodDatabaseType": "postgresql",
-    "buildTool": "gradle",
+    "buildTool": "maven",
     "serverSideOptions": [],
     "websocket": false,
     "searchEngine": false,
@@ -38,10 +38,12 @@
     "nativeLanguage": "fr",
     "monorepository": true,
     "skipCommitHook": true,
-    "jwtSecretKey": "MGQyOWY3OGNjZWQ0ZjkzNDIzNzMyNzAwNWVhZTJkYmIyZDBiM2VlNDRkZWQwMTk4MTE2NTgxZWIxN2I2M2VmOWIzNmEzY2EwMjczZjZjOTA0NDJhZGE4MGVmYTMzODI5NDkzMzQ2ODRmMDU5OGU1Nzg0NDhlMWRmM2M1MDhhYjI=",
+    "jwtSecretKey": "ODI2MDgxYjcwOWM3ZTcxNDYzMzFlNzZlMGYzMDBlZjViMjU5NzEzNWRkNTMzY2FjNmIyNzMyOWNjNmRkZTYwNGFlNDU5OGI2MTkxOTViNjk0MGZlOTM5NWEzZWIzMDdkNzUxZTZiMmM3MTllMWQ2NTQ3YjU0M2Q2M2RmMzFmNzM=",
     "devServerPort": 4200,
     "clientPackageManager": "npm",
     "languages": ["fr", "en"],
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Aeroclub", "UserRegistered", "Tarif", "Avion", "Reservation", "Revision", "Atelier"],
+    "lastLiquibaseTimestamp": 1698672789000
   }
 }

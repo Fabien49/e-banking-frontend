@@ -1,0 +1,167 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+      <h2 id="jhi-avion-heading" data-cy="AvionCreateUpdateHeading" jhiTranslate="aeroclubpassionApp.avion.home.createOrEditLabel">
+        Create or edit a Avion
+      </h2>
+
+      <div>
+        <jhi-alert-error></jhi-alert-error>
+
+        <div class="form-group" [hidden]="editForm.get('id')!.value == null">
+          <label class="form-control-label" jhiTranslate="global.field.id" for="field_id">ID</label>
+          <input type="number" class="form-control" name="id" id="field_id" data-cy="id" formControlName="id" [readonly]="true" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.marque" for="field_marque">Marque</label>
+          <input type="text" class="form-control" name="marque" id="field_marque" data-cy="marque" formControlName="marque" />
+          <div *ngIf="editForm.get('marque')!.invalid && (editForm.get('marque')!.dirty || editForm.get('marque')!.touched)">
+            <small class="form-text text-danger" *ngIf="editForm.get('marque')?.errors?.required" jhiTranslate="entity.validation.required">
+              This field is required.
+            </small>
+            <small
+              class="form-text text-danger"
+              *ngIf="editForm.get('marque')?.errors?.maxlength"
+              jhiTranslate="entity.validation.maxlength"
+              [translateValues]="{ max: 80 }"
+            >
+              This field cannot be longer than 80 characters.
+            </small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.type" for="field_type">Type</label>
+          <input type="text" class="form-control" name="type" id="field_type" data-cy="type" formControlName="type" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.moteur" for="field_moteur">Moteur</label>
+          <input type="text" class="form-control" name="moteur" id="field_moteur" data-cy="moteur" formControlName="moteur" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.puissance" for="field_puissance">Puissance</label>
+          <input type="number" class="form-control" name="puissance" id="field_puissance" data-cy="puissance" formControlName="puissance" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.place" for="field_place">Place</label>
+          <input type="number" class="form-control" name="place" id="field_place" data-cy="place" formControlName="place" />
+          <div *ngIf="editForm.get('place')!.invalid && (editForm.get('place')!.dirty || editForm.get('place')!.touched)">
+            <small class="form-text text-danger" *ngIf="editForm.get('place')?.errors?.required" jhiTranslate="entity.validation.required">
+              This field is required.
+            </small>
+            <small class="form-text text-danger" [hidden]="!editForm.get('place')?.errors?.number" jhiTranslate="entity.validation.number">
+              This field should be a number.
+            </small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.autonomie" for="field_autonomie">Autonomie</label>
+          <input type="text" class="form-control" name="autonomie" id="field_autonomie" data-cy="autonomie" formControlName="autonomie" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.usage" for="field_usage">Usage</label>
+          <input type="text" class="form-control" name="usage" id="field_usage" data-cy="usage" formControlName="usage" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.heures" for="field_heures">Heures</label>
+          <input type="text" class="form-control" name="heures" id="field_heures" data-cy="heures" formControlName="heures" />
+          <div *ngIf="editForm.get('heures')!.invalid && (editForm.get('heures')!.dirty || editForm.get('heures')!.touched)">
+            <small class="form-text text-danger" *ngIf="editForm.get('heures')?.errors?.required" jhiTranslate="entity.validation.required">
+              This field is required.
+            </small>
+            <small class="form-text text-danger" [hidden]="!editForm.get('heures')?.errors?.number" jhiTranslate="entity.validation.number">
+              This field should be a number.
+            </small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.image" for="field_image">Image</label>
+          <div>
+            <img
+              [src]="'data:' + editForm.get('imageContentType')!.value + ';base64,' + editForm.get('image')!.value"
+              style="max-height: 100px"
+              *ngIf="editForm.get('image')!.value"
+              alt="avion image"
+            />
+            <div *ngIf="editForm.get('image')!.value" class="form-text text-danger clearfix">
+              <span class="pull-left">{{ editForm.get('imageContentType')!.value }}, {{ byteSize(editForm.get('image')!.value) }}</span>
+              <button
+                type="button"
+                (click)="clearInputImage('image', 'imageContentType', 'file_image')"
+                class="btn btn-secondary btn-xs pull-right"
+              >
+                <fa-icon icon="times"></fa-icon>
+              </button>
+            </div>
+            <input
+              type="file"
+              id="file_image"
+              data-cy="image"
+              (change)="setFileData($event, 'image', true)"
+              accept="image/*"
+              jhiTranslate="entity.action.addimage"
+            />
+          </div>
+          <input type="hidden" class="form-control" name="image" id="field_image" data-cy="image" formControlName="image" />
+          <input
+            type="hidden"
+            class="form-control"
+            name="imageContentType"
+            id="field_imageContentType"
+            formControlName="imageContentType"
+          />
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.atelier" for="field_atelier">Atelier</label>
+          <select class="form-control" id="field_atelier" data-cy="atelier" name="atelier" formControlName="atelier">
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="atelierOption.id === editForm.get('atelier')!.value?.id ? editForm.get('atelier')!.value : atelierOption"
+              *ngFor="let atelierOption of ateliersSharedCollection; trackBy: trackAtelierById"
+            >
+              {{ atelierOption.id }}
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-control-label" jhiTranslate="aeroclubpassionApp.avion.revision" for="field_revision">Revision</label>
+          <select class="form-control" id="field_revision" data-cy="revision" name="revision" formControlName="revision">
+            <option [ngValue]="null"></option>
+            <option
+              [ngValue]="revisionOption.id === editForm.get('revision')!.value?.id ? editForm.get('revision')!.value : revisionOption"
+              *ngFor="let revisionOption of revisionsSharedCollection; trackBy: trackRevisionById"
+            >
+              {{ revisionOption.id }}
+            </option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <button type="button" id="cancel-save" data-cy="entityCreateCancelButton" class="btn btn-secondary" (click)="previousState()">
+          <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+        </button>
+
+        <button
+          type="submit"
+          id="save-entity"
+          data-cy="entityCreateSaveButton"
+          [disabled]="editForm.invalid || isSaving"
+          class="btn btn-primary"
+        >
+          <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

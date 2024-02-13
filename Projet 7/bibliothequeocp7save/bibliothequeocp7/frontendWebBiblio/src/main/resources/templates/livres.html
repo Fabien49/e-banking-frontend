@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="static/css/style.css" />
+
+    <title>Les Amis de l'Escalade</title>
+</head>
+
+<body>
+<!-- header -->
+<header th:replace="fragments/header::header">
+
+<div th:if="${role == 'ADMIN'}">
+<div th:replace="fragments/headerAdmin::menuAdmin"></div>
+</div>
+</header>
+
+<!-- fin header -->
+
+<div class="container">
+<!--    <div class="row">
+        <div class="col">
+            <div class="border-secondary shadow jumbotron">
+                <h1>Bibliothèque</h1>
+                <hr>
+                <h5>Rechercher un ou des sites en fonctions d'un ou plusieurs critères</h5>
+                &lt;!&ndash;<form th:action="@{/sites}">&ndash;&gt;
+                    <form >
+                    <div class="row">
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            &lt;!&ndash;<input th:value="${keyword}" type="text" class="form-control" name="keyword" id="keyword" placeholder="Nom du site">&ndash;&gt;
+
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${region}" type="text" class="form-control" name="region" id="region" placeholder="Région"></input>
+                        </div>
+&lt;!&ndash;                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${nbVoies}" type="text" class="form-control" name="nbVoies" id="nbVoies" placeholder="Nombre de voies">
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${cotationMin}" type="text" class="form-control" id="cotation_min" placeholder="Cotation min"></input>
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-4">
+                            <input th:value="${cotationMax}" type="text" class="form-control" id="cotation_max" placeholder="Cotation max"></input>
+                        </div>&ndash;&gt;
+                        <div class="form-group col-12 col-md-12 col-lg-4">
+                            <button type="submit" class="btn btn-primary mt-auto mx-auto w-100">Chercher</button>
+                       <div class="form-group col-12 col-md-12 col-lg-4">
+                          </div>
+                            <a class="btn btn-success mt-auto mx-auto w-100" href="/siteForm">Ajouter un site</a>
+                        </div>
+                    </div>
+                </form>
+                <div class="row" th:if="${recherchenull}">
+                    <div class="col-8" th:text="*{recherchenull}"></div>
+                    <a class="btn btn-primary col-4" href="/sites">Réinitialiser</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="row">
+        <!--<div th:each="s:${sitePage}" class="col-12 my-4 col-lg-4">-->
+        <div class="col-12 my-4 col-lg-4">
+            <div class="border-secondary shadow card h-100">
+                <!--<img class="card-img-top" src="#" th:src ="@{|/img/site/${s.site_image}|}" alt="site_image" height="250">-->
+                <img class="card-img-top" src="#" alt="livre_image" height="250">
+                <div class="card-body">
+                    <!--<h5 class="card-title" th:text="${s.nom}"></h5>-->
+                    <h5 class="card-title"></h5>
+                    <table class="table table-border">
+                        <tr>
+                            <td class="text-left">Titre</td>
+                            <!--<td th:text="${s.region}"></td>-->
+                        </tr>
+                        <tr>
+                            <td class="text-left">Auteur</td>
+                            <!--<td th:text="'De ' + ${s.cotationMin} + ' à ' + ${s.cotationMax}"></td>-->
+                        </tr>
+                        <tr>
+                            <td class="text-left">Style</td>
+                            <!--<td th:text="${s.nbVoies}"></td>-->
+                        </tr>
+                    </table>
+                    <!--<a class="stretched-link btn btn-secondary" th:href="@{pageEscalade/
+                            (id=${s.id})}" role="button">Plus de détails</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item">&middot;</li>
+                    <li class="list-inline-item">Par Fabien Chapeau de chez OC
+                    </li>
+                    <li class="list-inline-item">&middot;</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

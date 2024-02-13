@@ -9,15 +9,17 @@ describe('HealthModalComponent', () => {
   let fixture: ComponentFixture<HealthModalComponent>;
   let mockActiveModal: NgbActiveModal;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      declarations: [HealthModalComponent],
-      providers: [NgbActiveModal],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [HealthModalComponent],
+        providers: [NgbActiveModal],
+      })
+        .overrideTemplate(HealthModalComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(HealthModalComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(HealthModalComponent);

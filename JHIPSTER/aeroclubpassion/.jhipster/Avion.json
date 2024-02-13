@@ -1,0 +1,70 @@
+{
+  "name": "Avion",
+  "fields": [
+    {
+      "fieldName": "marque",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "80"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "moteur",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "puissance",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "place",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "autonomie",
+      "fieldType": "Duration"
+    },
+    {
+      "fieldName": "usage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "heures",
+      "fieldType": "Duration",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "atelier",
+      "otherEntityRelationshipName": "avions",
+      "relationshipName": "atelier"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "revision",
+      "otherEntityRelationshipName": "avions",
+      "relationshipName": "revision"
+    }
+  ],
+  "entityTableName": "avions",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20231030133306"
+}

@@ -1,20 +1,20 @@
 <div>
-  <div class="d-flex justify-content-center">
+  <div class="row justify-content-center">
     <div class="col-md-8">
-      <h2 jhiTranslate="settings.title" [translateValues]="{ username: settingsForm.value.login }" *ngIf="settingsForm.value.login">
-        Profil de l'utilisateur [<strong>{{ settingsForm.value.login }}</strong
+      <h2 jhiTranslate="settings.title" [translateValues]="{ username: account.login }" *ngIf="account">
+        User settings for [<strong>{{ account.login }}</strong
         >]
       </h2>
 
       <div class="alert alert-success" *ngIf="success" jhiTranslate="settings.messages.success">
-        <strong>Votre profil a été sauvegardé !</strong>
+        <strong>Settings saved!</strong>
       </div>
 
       <jhi-alert-error></jhi-alert-error>
 
-      <form name="form" role="form" (ngSubmit)="save()" [formGroup]="settingsForm" *ngIf="settingsForm.value.login" novalidate>
-        <div class="mb-3">
-          <label class="form-label" for="firstName" jhiTranslate="settings.form.firstname">Prénom</label>
+      <form name="form" role="form" (ngSubmit)="save()" [formGroup]="settingsForm" *ngIf="account" novalidate>
+        <div class="form-group">
+          <label class="form-control-label" for="firstName" jhiTranslate="settings.form.firstname">First Name</label>
           <input
             type="text"
             class="form-control"
@@ -35,7 +35,7 @@
               *ngIf="settingsForm.get('firstName')?.errors?.required"
               jhiTranslate="settings.messages.validate.firstname.required"
             >
-              Votre prénom est requis.
+              Your first name is required.
             </small>
 
             <small
@@ -43,7 +43,7 @@
               *ngIf="settingsForm.get('firstName')?.errors?.minlength"
               jhiTranslate="settings.messages.validate.firstname.minlength"
             >
-              Votre prénom doit comporter au moins un caractère.
+              Your first name is required to be at least 1 character.
             </small>
 
             <small
@@ -51,13 +51,13 @@
               *ngIf="settingsForm.get('firstName')?.errors?.maxlength"
               jhiTranslate="settings.messages.validate.firstname.maxlength"
             >
-              Votre prénom ne doit pas comporter plus de 50 caractères.
+              Your first name cannot be longer than 50 characters.
             </small>
           </div>
         </div>
 
-        <div class="mb-3">
-          <label class="form-label" for="lastName" jhiTranslate="settings.form.lastname">Nom</label>
+        <div class="form-group">
+          <label class="form-control-label" for="lastName" jhiTranslate="settings.form.lastname">Last Name</label>
           <input
             type="text"
             class="form-control"
@@ -76,7 +76,7 @@
               *ngIf="settingsForm.get('lastName')?.errors?.required"
               jhiTranslate="settings.messages.validate.lastname.required"
             >
-              Votre nom est requis.
+              Your last name is required.
             </small>
 
             <small
@@ -84,7 +84,7 @@
               *ngIf="settingsForm.get('lastName')?.errors?.minlength"
               jhiTranslate="settings.messages.validate.lastname.minlength"
             >
-              Votre nom doit comporter au moins un caractère.
+              Your last name is required to be at least 1 character.
             </small>
 
             <small
@@ -92,13 +92,13 @@
               *ngIf="settingsForm.get('lastName')?.errors?.maxlength"
               jhiTranslate="settings.messages.validate.lastname.maxlength"
             >
-              Votre nom ne doit pas comporter plus de 50 caractères.
+              Your last name cannot be longer than 50 characters.
             </small>
           </div>
         </div>
 
-        <div class="mb-3">
-          <label class="form-label" for="email" jhiTranslate="global.form.email.label">Email</label>
+        <div class="form-group">
+          <label class="form-control-label" for="email" jhiTranslate="global.form.email.label">Email</label>
           <input
             type="email"
             class="form-control"
@@ -115,7 +115,7 @@
               *ngIf="settingsForm.get('email')?.errors?.required"
               jhiTranslate="global.messages.validate.email.required"
             >
-              Votre email est requis.
+              Your email is required.
             </small>
 
             <small
@@ -123,7 +123,7 @@
               *ngIf="settingsForm.get('email')?.errors?.email"
               jhiTranslate="global.messages.validate.email.invalid"
             >
-              Votre email n'est pas valide.
+              Your email is invalid.
             </small>
 
             <small
@@ -131,7 +131,7 @@
               *ngIf="settingsForm.get('email')?.errors?.minlength"
               jhiTranslate="global.messages.validate.email.minlength"
             >
-              Votre email doit comporter au moins 5 caractères.
+              Your email is required to be at least 5 characters.
             </small>
 
             <small
@@ -139,13 +139,13 @@
               *ngIf="settingsForm.get('email')?.errors?.maxlength"
               jhiTranslate="global.messages.validate.email.maxlength"
             >
-              Votre email ne doit pas comporter plus de 50 caractères.
+              Your email cannot be longer than 100 characters.
             </small>
           </div>
         </div>
 
-        <div class="mb-3" *ngIf="languages && languages.length > 0">
-          <label for="langKey" jhiTranslate="settings.form.language">Langue</label>
+        <div class="form-group" *ngIf="languages && languages.length > 0">
+          <label for="langKey" jhiTranslate="settings.form.language">Language</label>
           <select class="form-control" id="langKey" name="langKey" formControlName="langKey" data-cy="langKey">
             <option *ngFor="let language of languages" [value]="language">{{ language | findLanguageFromKey }}</option>
           </select>
@@ -158,7 +158,7 @@
           jhiTranslate="settings.form.button"
           data-cy="submit"
         >
-          Sauvegarder
+          Save
         </button>
       </form>
     </div>

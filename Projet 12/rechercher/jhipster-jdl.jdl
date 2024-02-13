@@ -1,0 +1,18 @@
+
+/**
+ * The User entity.
+ */
+entity Pilote {
+	/**
+	* The firstname attribute.
+	*/
+	name String
+	emailId String
+	qualification String
+}
+
+
+
+
+
+

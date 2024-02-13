@@ -1,6 +1,7 @@
-package com.ecommerce.microcommerce.model;
+package com.ecommerce.microcommerce.web.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,7 +17,10 @@ public class Product {
     @Id
     @GeneratedValue
     private int id;
+
+    @Length(min=3, max=20, message = "t'es ouf ou quoi !")
     private String nom;
+
     private int prix;
 
     //A ne pas afficher

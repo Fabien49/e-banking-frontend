@@ -1,5 +1,5 @@
 
-package com.fabienIT.escaladefriendsp6ocr.handler;
+package com.fabienit.biblioweb.handler;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.authority.AuthorityUtils;

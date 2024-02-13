@@ -1,5 +1,7 @@
-package com.fabienit.biblioweb.biblioweb.model;
+package com.fabienit.biblioweb.model;
 
+
+import java.util.Set;
 
 public class Usager {
 
@@ -13,14 +15,15 @@ public class Usager {
 	private String codePostal;
 	private String commune;
 	private boolean active;
+	private Set<Role> roles;
 
 
 
-	public Usager() {
+	public Usager(Usager usager) {
 	}
 
 
-	public Usager(int id, String email, String password, String name, String lastName, String voie, String codePostal, String commune, boolean active) {
+	public Usager(int id, String email, String password, String name, String lastName, String voie, String codePostal, String commune, boolean active, Set<Role> roles) {
 		this.id = id;
 		this.email = email;
 		this.password = password;
@@ -30,6 +33,11 @@ public class Usager {
 		this.codePostal = codePostal;
 		this.commune = commune;
 		this.active = active;
+		this.roles = roles;
+	}
+
+	public Usager() {
+
 	}
 
 	public int getId() {
@@ -104,7 +112,13 @@ public class Usager {
 		this.active = active;
 	}
 
+	public Set<Role> getRoles() {
+		return roles;
+	}
 
+	public void setRoles(Set<Role> roles) {
+		this.roles = roles;
+	}
 
 	@Override
 	public boolean equals(Object o) {
@@ -125,7 +139,13 @@ public class Usager {
 				", voie='" + voie + '\'' +
 				", codePostal='" + codePostal + '\'' +
 				", commune='" + commune + '\'' +
-				", active=" + active +
+				", active=" + active + '\'' +
+				", role=" + roles +
 				'}';
+	}
+
+
+	public Object getName(Usager usager) {
+		return usager;
 	}
 }

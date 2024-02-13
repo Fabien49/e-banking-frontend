@@ -1,0 +1,14 @@
+2022-01-16 18:31:18,705 INFO com.oc.api.ApiApplication [main] Starting ApiApplication on FABPC with PID 18964 (C:\Users\FaB\Git\Souleyamane_example_webapp_api\OC_Bibliotheque_P10Full\api\target\classes started by FaB PC in C:\Users\FaB\Git\Souleyamane_example_webapp_api)
+2022-01-16 18:31:18,710 DEBUG com.oc.api.ApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-01-16 18:31:18,712 INFO com.oc.api.ApiApplication [main] No active profile set, falling back to default profiles: default
+2022-01-16 18:31:32,721 DEBUG com.oc.api.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$45dc3b63 [main] Set Swagger2 documentation
+2022-01-16 18:31:34,306 INFO com.oc.api.ApiApplication [main] Started ApiApplication in 16.577 seconds (JVM running for 19.53)
+2022-01-16 18:32:50,036 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Providing book resource from database: all book list
+2022-01-16 18:32:50,263 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-1] Splitting query, query: 
+2022-01-16 18:32:50,521 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2022-01-16 18:33:19,272 INFO com.oc.api.web.controllers.RegisteredUserController [http-nio-9001-exec-4] Search user by email: ccathala.dev@gmail.com
+2022-01-16 18:33:19,559 INFO com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Providing book resource from database: all book list
+2022-01-16 18:33:19,587 DEBUG com.oc.api.web.controllers.BookController [http-nio-9001-exec-5] Splitting query, query: 
+2022-01-16 18:33:19,698 INFO com.oc.api.web.controllers.AvailableCopieController [http-nio-9001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2022-01-16 18:33:19,937 INFO com.oc.api.web.controllers.ReservationController [http-nio-9001-exec-7] Providing reservation list for registered user from database: user id: 1
+2022-01-16 18:33:20,360 INFO com.oc.api.web.controllers.BorrowController [http-nio-9001-exec-8] Providing borrow resources from database by user id: 1

@@ -2,9 +2,8 @@
 version: '3.8'
 services:
   aeroclubspassion-mysql:
-    image: mysql:8.0.29
-    volumes:
-      - ./config/mysql:/etc/mysql/conf.d
+    image: mysql:8.0.27
+    # volumes:
     #   - ~/volumes/jhipster/aeroclubspassion/mysql/:/var/lib/mysql/
     environment:
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes

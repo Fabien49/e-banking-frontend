@@ -1,5 +1,5 @@
 {
-  "generator-jhipster:7.9.0": {
+  "generator-jhipster:7.4.1": {
     "promptValues": {
       "packageName": "com.fabienit.aeroclubspassion",
       "nativeLanguage": "fr"

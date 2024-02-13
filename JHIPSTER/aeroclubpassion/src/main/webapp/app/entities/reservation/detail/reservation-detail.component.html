@@ -1,0 +1,48 @@
+<div class="row justify-content-center">
+  <div class="col-8">
+    <div *ngIf="reservation">
+      <h2 data-cy="reservationDetailsHeading"><span jhiTranslate="aeroclubpassionApp.reservation.detail.title">Reservation</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ reservation.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.reservation.dateEmprunt">Date Emprunt</span></dt>
+        <dd>
+          <span>{{ reservation.dateEmprunt | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.reservation.dateRetour">Date Retour</span></dt>
+        <dd>
+          <span>{{ reservation.dateRetour | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.reservation.avions">Avions</span></dt>
+        <dd>
+          <div *ngIf="reservation.avions">
+            <a [routerLink]="['/avion', reservation.avions?.id, 'view']">{{ reservation.avions?.id }}</a>
+          </div>
+        </dd>
+        <dt><span jhiTranslate="aeroclubpassionApp.reservation.userRegistereds">User Registereds</span></dt>
+        <dd>
+          <div *ngIf="reservation.userRegistereds">
+            <a [routerLink]="['/user-registered', reservation.userRegistereds?.id, 'view']">{{ reservation.userRegistereds?.nom }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/reservation', reservation.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

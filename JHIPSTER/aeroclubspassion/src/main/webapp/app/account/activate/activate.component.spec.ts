@@ -9,20 +9,22 @@ import { ActivateComponent } from './activate.component';
 describe('ActivateComponent', () => {
   let comp: ActivateComponent;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      declarations: [ActivateComponent],
-      providers: [
-        {
-          provide: ActivatedRoute,
-          useValue: { queryParams: of({ key: 'ABC123' }) },
-        },
-      ],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [ActivateComponent],
+        providers: [
+          {
+            provide: ActivatedRoute,
+            useValue: { queryParams: of({ key: 'ABC123' }) },
+          },
+        ],
+      })
+        .overrideTemplate(ActivateComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(ActivateComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     const fixture = TestBed.createComponent(ActivateComponent);

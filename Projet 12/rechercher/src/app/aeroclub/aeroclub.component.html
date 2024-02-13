@@ -1,0 +1,38 @@
+<p>aeroclub works!</p>
+<br><br>
+
+<div class="row">
+  <div class="col-md-offset-4 col-md-4">
+    <form [formGroup]="form" #searchInfo (ngSubmit)="searchForm(searchInfo)">
+
+      <table>
+        <tr>
+          <td> <input type="text" formControlName="name" placeholder="Enter name" class="form-control"> </td>
+          <td> <input type="text" formControlName="email" placeholder="Enter EmailId" class="form-control"> </td>
+          <td><button class="btn btn-primary hidden-xs">Search</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div>
+
+<br><br>
+
+<div class="row">
+  <div class="col-md-offset-4 col-md-4">
+    <table class="table table-bordered table-striped table-responsive">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Qualification</th>
+      </tr>
+      <ng-container *ngFor="let item of data">
+        <tr>
+          <td>{{item.name}}</td>
+          <td>{{item.emailId}}</td>
+          <td>{{item.qualification}}</td>
+        </tr>
+      </ng-container>
+    </table>
+  </div>
+</div>

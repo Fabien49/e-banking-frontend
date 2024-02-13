@@ -1,4 +1,4 @@
-package com.fabienit.biblioweb.biblioweb.model;
+package com.fabienit.biblioweb.model;
 
 public class Livre {
 

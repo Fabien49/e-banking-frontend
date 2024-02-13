@@ -8,9 +8,30 @@
     <artifactId>calculatriceTdd</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!-- Indiquer l'encodage et le projet en Java 11 -->
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
     </properties>
 
+    <!-- Déclaration de la dépendance vers JUnit -->
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.5.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- Pour être compatible avec JUnit 5 -->
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>

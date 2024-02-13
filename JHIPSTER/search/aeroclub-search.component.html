@@ -1,0 +1,65 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="border-secondary shadow jumbotron">
+        <h1>Sites d'Escalades</h1>
+        <hr>
+        <h5>Rechercher un aérodrome</h5>
+        <form>
+          <div class="row">
+            <div class="form-group col-12 col-md-6 col-lg-4">
+              <input type="text" class="form-control" name="keyword" id="keyword" placeholder="Nom du site">
+            </div>
+            <div class="form-group col-12 col-md-6 col-lg-4">
+              <input type="text" class="form-control" name="region" id="region" placeholder="Région">
+            </div>
+            <!--                        <div class="form-group col-12 col-md-6 col-lg-4">
+                                        <input th:value="${nbVoies}" type="text" class="form-control" name="nbVoies" id="nbVoies" placeholder="Nombre de voies">
+                                    </div>
+                                    <div class="form-group col-12 col-md-6 col-lg-4">
+                                        <input th:value="${cotationMin}" type="text" class="form-control" id="cotation_min" placeholder="Cotation min"></input>
+                                    </div>
+                                    <div class="form-group col-12 col-md-6 col-lg-4">
+                                        <input th:value="${cotationMax}" type="text" class="form-control" id="cotation_max" placeholder="Cotation max"></input>
+                                    </div>-->
+            <div class="form-group col-12 col-md-12 col-lg-4">
+              <button type="submit" class="btn btn-primary mt-auto mx-auto w-100">Chercher</button>
+              <div class="form-group col-12 col-md-12 col-lg-4">
+              </div>
+              <a class="btn btn-success mt-auto mx-auto w-100" href="/siteForm">Ajouter un site</a>
+            </div>
+          </div>
+        </form>
+        <div class="row" >
+          <div class="col-8"></div>
+          <a class="btn btn-primary col-4" href="/sites">Réinitialiser</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 my-4 col-lg-4">
+      <div class="border-secondary shadow card h-100">
+        <img class="card-img-top" src="#"  alt="site_image" height="250">
+        <div class="card-body">
+          <h5 class="card-title" ></h5>
+          <table class="table table-border">
+            <tr>
+              <td class="text-left">Région</td>
+              <td ></td>
+            </tr>
+            <tr>
+              <td class="text-left">Cotations</td>
+              <td ></td>
+            </tr>
+            <tr>
+              <td class="text-left">Nombre de voies</td>
+              <td></td>
+            </tr>
+          </table>
+          <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,154 @@
+2022-09-26 08:57:59,146 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Starting BiblioApiApplication on FABPC with PID 2704 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10)
+2022-09-26 08:57:59,156 DEBUG com.fabienit.biblioapi.BiblioApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-09-26 08:57:59,161 INFO com.fabienit.biblioapi.BiblioApiApplication [main] The following profiles are active: dev
+2022-09-26 08:58:09,186 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$3793cf91 [main] Set Swagger2 documentation
+2022-09-26 08:58:10,240 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Started BiblioApiApplication in 12.409 seconds (JVM running for 13.638)
+2022-09-26 09:06:00,790 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-1] Deleting outdated reservations from database
+2022-09-26 09:06:00,791 DEBUG com.fabienit.biblioapi.manager.impl.OutDatedReservationManagerImpl [http-nio-8001-exec-1] Deleting outdated reservations
+2022-09-26 09:06:01,286 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Providing reservation resource from database: all reservation list
+2022-09-26 09:06:01,914 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Update reservation after notfications is sent, reservation id: 1
+2022-09-26 09:06:12,645 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-8001-exec-5] Search user by email: test1@gmail.com
+2022-09-26 09:06:15,876 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-6] Providing borrow resources from database by user id: 2
+2022-09-26 09:06:16,061 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-7] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:07:43,372 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-9] Providing book resource from database: all book list
+2022-09-26 09:07:43,393 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-9] Splitting query, query: 
+2022-09-26 09:07:43,525 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-10] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 09:07:43,741 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-10] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:07:43,840 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Providing borrow resources from database by user id: 2
+2022-09-26 09:08:18,363 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-3] Providing borrow resources from database by user id: 2
+2022-09-26 09:08:18,464 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-4] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:08:26,863 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-6] Deleting reservation from database: id: 2
+2022-09-26 09:08:26,994 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-7] Providing borrow resources from database by user id: 2
+2022-09-26 09:08:27,090 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-8] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:08:29,629 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-9] Providing borrow resources from database by user id: 2
+2022-09-26 09:08:29,725 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-1] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:08:31,141 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-10] Providing book resource from database: all book list
+2022-09-26 09:08:31,144 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-10] Splitting query, query: 
+2022-09-26 09:08:31,235 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-2] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 09:08:31,336 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:08:31,426 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-4] Providing borrow resources from database by user id: 2
+2022-09-26 09:08:38,527 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-6] Adding new reservation in database
+2022-09-26 09:08:38,672 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-7] Providing borrow resources from database by user id: 2
+2022-09-26 09:08:38,773 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-8] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:09:18,351 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-1] Providing borrow resource from database: borrow id: 6
+2022-09-26 09:09:18,464 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-10] Extend borrow in database, id: 6
+2022-09-26 09:09:18,581 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Providing borrow resources from database by user id: 2
+2022-09-26 09:09:18,680 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:09:29,358 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-8001-exec-5] Search user by email: test2@gmail.com
+2022-09-26 09:09:31,648 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-6] Providing borrow resources from database by user id: 3
+2022-09-26 09:09:31,743 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-7] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:09:50,997 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-9] Deleting reservation from database: id: 1
+2022-09-26 09:09:51,110 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-1] Providing borrow resources from database by user id: 3
+2022-09-26 09:09:51,230 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-10] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:10:00,095 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Providing borrow resource from database: all borrow list
+2022-09-26 09:10:02,808 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-4] Providing borrow resources from database by user id: 3
+2022-09-26 09:10:02,903 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-5] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:10:07,777 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-7] Providing borrow resources from database by user id: 3
+2022-09-26 09:10:07,873 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-8] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:10:09,844 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-9] Providing book resource from database: all book list
+2022-09-26 09:10:09,847 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-9] Splitting query, query: 
+2022-09-26 09:10:09,938 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-1] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 09:10:10,043 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-10] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:10:10,141 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Providing borrow resources from database by user id: 3
+2022-09-26 09:10:14,434 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Adding new reservation in database
+2022-09-26 09:10:14,545 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-4] Providing borrow resources from database by user id: 3
+2022-09-26 09:10:14,646 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-5] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:10:21,719 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-8001-exec-6] Search user by email: test1@gmail.com
+2022-09-26 09:10:23,245 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-7] Providing borrow resources from database by user id: 2
+2022-09-26 09:10:23,341 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-8] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:10:40,594 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-1] Deleting reservation from database: id: 3
+2022-09-26 09:10:40,703 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-10] Providing borrow resources from database by user id: 2
+2022-09-26 09:10:40,818 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Providing reservation list for registered user from database: user id: 2
+2022-09-26 09:11:43,840 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table available_copie if exists
+2022-09-26 09:11:43,850 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table book if exists
+2022-09-26 09:11:43,906 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table library if exists
+2022-09-26 09:11:43,910 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table registered_user if exists
+2022-09-26 09:11:49,447 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Starting BiblioApiApplication on FABPC with PID 5728 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10)
+2022-09-26 09:11:49,452 DEBUG com.fabienit.biblioapi.BiblioApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-09-26 09:11:49,452 INFO com.fabienit.biblioapi.BiblioApiApplication [main] The following profiles are active: dev
+2022-09-26 09:11:59,932 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$8f035b91 [main] Set Swagger2 documentation
+2022-09-26 09:12:00,925 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Started BiblioApiApplication in 11.991 seconds (JVM running for 13.08)
+2022-09-26 09:12:27,760 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Extend borrow in database, id: 1
+2022-09-26 09:12:28,048 DEBUG com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Le prêt ne peut pas être prolongé car la date de retour est dépassée
+2022-09-26 09:15:00,153 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Deleting outdated reservations from database
+2022-09-26 09:15:00,154 DEBUG com.fabienit.biblioapi.manager.impl.OutDatedReservationManagerImpl [http-nio-8001-exec-3] Deleting outdated reservations
+2022-09-26 09:15:00,455 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-4] Providing reservation resource from database: all reservation list
+2022-09-26 09:15:00,922 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-5] Update reservation after notfications is sent, reservation id: 1
+2022-09-26 09:20:00,115 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-7] Deleting outdated reservations from database
+2022-09-26 09:20:00,116 DEBUG com.fabienit.biblioapi.manager.impl.OutDatedReservationManagerImpl [http-nio-8001-exec-7] Deleting outdated reservations
+2022-09-26 09:20:00,223 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-8] Providing reservation resource from database: all reservation list
+2022-09-26 09:20:48,741 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table available_copie if exists
+2022-09-26 09:20:48,744 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table book if exists
+2022-09-26 09:20:48,751 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table library if exists
+2022-09-26 09:20:48,752 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table registered_user if exists
+2022-09-26 09:20:53,187 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Starting BiblioApiApplication on FABPC with PID 7444 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10)
+2022-09-26 09:20:53,190 DEBUG com.fabienit.biblioapi.BiblioApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-09-26 09:20:53,191 INFO com.fabienit.biblioapi.BiblioApiApplication [main] The following profiles are active: dev
+2022-09-26 09:21:05,362 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$8f035b91 [main] Set Swagger2 documentation
+2022-09-26 09:21:07,063 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Started BiblioApiApplication in 14.457 seconds (JVM running for 15.36)
+2022-09-26 09:22:01,142 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-1] Deleting outdated reservations from database
+2022-09-26 09:22:01,142 DEBUG com.fabienit.biblioapi.manager.impl.OutDatedReservationManagerImpl [http-nio-8001-exec-1] Deleting outdated reservations
+2022-09-26 09:22:01,624 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Providing reservation resource from database: all reservation list
+2022-09-26 09:22:02,513 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Update reservation after notfications is sent, reservation id: 1
+2022-09-26 09:40:33,848 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-4] Providing book resource from database: all book list
+2022-09-26 09:40:33,858 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-4] Splitting query, query: 
+2022-09-26 09:40:34,086 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-6] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 09:40:39,053 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-8001-exec-7] Search user by email: test1@gmail.com
+2022-09-26 09:40:47,522 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-8001-exec-9] Search user by email: test2@gmail.com
+2022-09-26 09:40:49,412 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-10] Providing borrow resources from database by user id: 3
+2022-09-26 09:40:49,584 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-1] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:40:52,011 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Deleting reservation from database: id: 1
+2022-09-26 09:40:52,145 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-3] Providing borrow resources from database by user id: 3
+2022-09-26 09:40:52,240 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-5] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:40:53,964 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-4] Providing borrow resources from database by user id: 3
+2022-09-26 09:40:54,058 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-6] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:40:55,294 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-7] Providing book resource from database: all book list
+2022-09-26 09:40:55,297 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-7] Splitting query, query: 
+2022-09-26 09:40:55,386 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-8] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 09:40:55,493 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-9] Providing reservation list for registered user from database: user id: 3
+2022-09-26 09:40:55,582 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-10] Providing borrow resources from database by user id: 3
+2022-09-26 09:42:22,582 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table available_copie if exists
+2022-09-26 09:42:22,586 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table book if exists
+2022-09-26 09:42:22,728 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table library if exists
+2022-09-26 09:42:22,732 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table registered_user if exists
+2022-09-26 09:42:33,388 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Starting BiblioApiApplication on FABPC with PID 15472 (started by FaB PC in C:\Users\FaB\Git\Projet 10\bibliothequep10)
+2022-09-26 09:42:33,393 DEBUG com.fabienit.biblioapi.BiblioApiApplication [main] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2022-09-26 09:42:33,393 INFO com.fabienit.biblioapi.BiblioApiApplication [main] The following profiles are active: dev
+2022-09-26 09:42:41,546 DEBUG com.fabienit.biblioapi.configuration.SwaggerConfig$$EnhancerBySpringCGLIB$$fed818c4 [main] Set Swagger2 documentation
+2022-09-26 09:42:42,572 INFO com.fabienit.biblioapi.BiblioApiApplication [main] Started BiblioApiApplication in 9.713 seconds (JVM running for 17.023)
+2022-09-26 09:45:00,448 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Deleting outdated reservations from database
+2022-09-26 09:45:00,448 DEBUG com.fabienit.biblioapi.manager.impl.OutDatedReservationManagerImpl [http-nio-8001-exec-2] Deleting outdated reservations
+2022-09-26 09:45:00,793 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-3] Providing reservation resource from database: all reservation list
+2022-09-26 09:45:01,336 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-4] Update reservation after notfications is sent, reservation id: 1
+2022-09-26 10:04:56,257 INFO com.fabienit.biblioapi.web.controllers.RegisteredUserController [http-nio-8001-exec-6] Search user by email: test1@gmail.com
+2022-09-26 10:04:58,791 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-8] Providing borrow resources from database by user id: 2
+2022-09-26 10:04:59,244 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-8] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:05:07,470 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-10] Providing book resource from database: all book list
+2022-09-26 10:05:07,478 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-10] Splitting query, query: 
+2022-09-26 10:05:07,652 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-1] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 10:05:07,871 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:05:07,992 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-3] Providing borrow resources from database by user id: 2
+2022-09-26 10:05:31,123 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-5] Providing borrow resources from database by user id: 2
+2022-09-26 10:05:31,301 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-6] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:05:33,353 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-7] Deleting reservation from database: id: 2
+2022-09-26 10:05:33,536 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-8] Providing borrow resources from database by user id: 2
+2022-09-26 10:05:33,688 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-9] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:05:37,613 INFO com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-10] Providing book resource from database: all book list
+2022-09-26 10:05:37,618 DEBUG com.fabienit.biblioapi.web.controllers.BookController [http-nio-8001-exec-10] Splitting query, query: 
+2022-09-26 10:05:37,723 INFO com.fabienit.biblioapi.web.controllers.AvailableCopieController [http-nio-8001-exec-1] Providing availablecopie resource from database: all availablecopie list
+2022-09-26 10:05:37,868 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-2] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:05:37,974 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-3] Providing borrow resources from database by user id: 2
+2022-09-26 10:05:47,005 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-5] Adding new reservation in database
+2022-09-26 10:05:47,279 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-6] Providing borrow resources from database by user id: 2
+2022-09-26 10:05:47,476 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-7] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:07:13,754 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-8] Providing borrow resource from database: borrow id: 6
+2022-09-26 10:07:13,942 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-9] Extend borrow in database, id: 6
+2022-09-26 10:07:14,113 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-10] Providing borrow resources from database by user id: 2
+2022-09-26 10:07:14,306 INFO com.fabienit.biblioapi.web.controllers.ReservationController [http-nio-8001-exec-10] Providing reservation list for registered user from database: user id: 2
+2022-09-26 10:10:00,116 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-2] Providing borrow resource from database: all borrow list
+2022-09-26 10:12:15,883 INFO com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-4] Extend borrow in database, id: 1
+2022-09-26 10:12:15,896 DEBUG com.fabienit.biblioapi.web.controllers.BorrowController [http-nio-8001-exec-4] Le prêt ne peut pas être prolongé car la date de retour est dépassée
+2022-09-26 16:04:31,849 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table available_copie if exists
+2022-09-26 16:04:31,872 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table book if exists
+2022-09-26 16:04:31,944 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table library if exists
+2022-09-26 16:04:31,945 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [SpringContextShutdownHook] HHH000478: Unsuccessful: drop table registered_user if exists

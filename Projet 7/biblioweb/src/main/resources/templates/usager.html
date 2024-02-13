@@ -121,14 +121,14 @@
 <div class="container-fluid">
     <div class="row">
 
-    <div th:each="l:${listeLivre}" class="col-12 my-3 col-lg-3">
+    <div  class="col-12 my-3 col-lg-3">
         <div class="border-secondary shadow card h-70">
-            <img class="card-img-top" th:src ="@{|/img/livre/${l.livre_image}|}" alt="livre_image" height="200">
+            <img class="card-img-top"  alt="livre_image" height="200">
             <div class="card-body">
                 <h5 class="card-title"></h5>
                 <table class="table table-border">
                     <tr>
-                        <td class="text-left" th:text="${l.titre}">Titre</td>
+                        <td class="text-left" th:text="${listeLivre}">Titre</td>
                     </tr>
                     <!--<tr>
                         <td class="text-left">Auteur</td>
@@ -137,235 +137,13 @@
                         <td class="text-left">Catégorie</td>
                     </tr>-->
                 </table>
-                <a class="stretched-link btn btn-secondary" th:href="@{livrePage/(id=${l.id})}" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
                 <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
             </div>
         </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-    <div class="col-12 my-3 col-lg-3">
-        <div class="border-secondary shadow card h-60">
-            <img class="card-img-top" src="#"  alt="livre_image" height="90">
-            <div class="card-body">
-                <h5 class="card-title"></h5>
-                <!--<table class="table table-border">
-                    <tr>
-                        <td class="text-left">Titre</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Auteur</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">Catégorie</td>
-                    </tr>
-                </table>-->
-                <a class="stretched-link btn btn-secondary" role="button">Plus de détails</a>
-            </div>
-        </div>
-    </div>
-
     </div>
     </div>
 </div>
-
+</div>
 <footer>
     <div class="container">
         <div class="row">

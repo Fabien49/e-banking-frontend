@@ -1,10 +1,11 @@
+jest.mock('@ngx-translate/core');
 jest.mock('app/core/auth/account.service');
 
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { FormBuilder } from '@angular/forms';
 import { throwError, of } from 'rxjs';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 
 import { AccountService } from 'app/core/auth/account.service';
 import { Account } from 'app/core/auth/account.model';
@@ -26,15 +27,17 @@ describe('SettingsComponent', () => {
     imageUrl: '',
   };
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      imports: [TranslateModule.forRoot(), HttpClientTestingModule],
-      declarations: [SettingsComponent],
-      providers: [FormBuilder, AccountService],
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        imports: [HttpClientTestingModule],
+        declarations: [SettingsComponent],
+        providers: [FormBuilder, TranslateService, AccountService],
+      })
+        .overrideTemplate(SettingsComponent, '')
+        .compileComponents();
     })
-      .overrideTemplate(SettingsComponent, '')
-      .compileComponents();
-  }));
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(SettingsComponent);
@@ -62,7 +65,7 @@ describe('SettingsComponent', () => {
     expect(mockAccountService.identity).toHaveBeenCalled();
     expect(mockAccountService.save).toHaveBeenCalledWith(account);
     expect(mockAccountService.authenticate).toHaveBeenCalledWith(account);
-    expect(comp.settingsForm.value).toMatchObject(expect.objectContaining(settingsFormValues));
+    expect(comp.settingsForm.value).toEqual(settingsFormValues);
   });
 
   it('should notify of success upon successful save', () => {

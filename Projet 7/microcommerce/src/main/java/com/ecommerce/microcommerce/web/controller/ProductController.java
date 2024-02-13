@@ -1,17 +1,21 @@
-package com.ecommerce.microcommerce.controller;
+package com.ecommerce.microcommerce.web.controller;
 
 
-import com.ecommerce.microcommerce.dao.ProductDao;
-import com.ecommerce.microcommerce.exceptions.ProduitIntrouvableException;
-import com.ecommerce.microcommerce.model.Product;
+import com.ecommerce.microcommerce.web.dao.ProductDao;
+import com.ecommerce.microcommerce.web.exceptions.ProduitIntrouvableException;
+import com.ecommerce.microcommerce.web.model.Product;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import javax.validation.Valid;
 import java.net.URI;
 import java.util.List;
 
+@Api(description = "Gestion des produits")
 @RestController
 public class ProductController {
 
@@ -25,14 +29,15 @@ public class ProductController {
     }
 
     //Récupérer un produit par son Id
+    @ApiOperation(value = "Récupère un produit selon son id")
     @GetMapping(value = "/Produits/{id}")
     public Product afficherUnProduit(@PathVariable int id) throws ProduitIntrouvableException {
 
-        Product product = productDao.findById(id);
+        Product produit = productDao.findById(id);
 
-        if(product==null) throw new ProduitIntrouvableException("Le produit avec l'id " + id + " est INTROUVABLE. Écran Bleu si je pouvais.");
+        if(produit==null) throw new ProduitIntrouvableException("Le produit avec l'id est INTROUVABLE. Écran Bleu si je pouvais.");
 
-        return product;
+        return produit;
     }
 
 /*    //ajouter un produit
@@ -43,7 +48,7 @@ public class ProductController {
 
     //ajouter un produit
     @PostMapping(value = "/Produits")
-    public ResponseEntity<Void> ajouterProduit(@RequestBody Product product) {
+    public ResponseEntity<Void> ajouterProduit(@Valid @RequestBody Product product) {
 
         Product productAdded =  productDao.save(product);
 

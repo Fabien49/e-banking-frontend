@@ -3,7 +3,6 @@ package com.fabienit.aeroclubspassion.security.jwt;
 import com.fabienit.aeroclubspassion.management.SecurityMetersService;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.io.Decoders;
-import io.jsonwebtoken.jackson.io.JacksonSerializer;
 import io.jsonwebtoken.security.Keys;
 import io.jsonwebtoken.security.SignatureException;
 import java.nio.charset.StandardCharsets;
@@ -27,8 +26,6 @@ public class TokenProvider {
     private final Logger log = LoggerFactory.getLogger(TokenProvider.class);
 
     private static final String AUTHORITIES_KEY = "auth";
-
-    private static final String INVALID_JWT_TOKEN = "Invalid JWT token.";
 
     private final Key key;
 
@@ -80,7 +77,6 @@ public class TokenProvider {
             .claim(AUTHORITIES_KEY, authorities)
             .signWith(key, SignatureAlgorithm.HS512)
             .setExpiration(validity)
-            .serializeToJsonWith(new JacksonSerializer<>())
             .compact();
     }
 
@@ -106,19 +102,19 @@ public class TokenProvider {
         } catch (ExpiredJwtException e) {
             this.securityMetersService.trackTokenExpired();
 
-            log.trace(INVALID_JWT_TOKEN, e);
+            log.trace("Invalid JWT token.", e);
         } catch (UnsupportedJwtException e) {
             this.securityMetersService.trackTokenUnsupported();
 
-            log.trace(INVALID_JWT_TOKEN, e);
+            log.trace("Invalid JWT token.", e);
         } catch (MalformedJwtException e) {
             this.securityMetersService.trackTokenMalformed();
 
-            log.trace(INVALID_JWT_TOKEN, e);
+            log.trace("Invalid JWT token.", e);
         } catch (SignatureException e) {
             this.securityMetersService.trackTokenInvalidSignature();
 
-            log.trace(INVALID_JWT_TOKEN, e);
+            log.trace("Invalid JWT token.", e);
         } catch (IllegalArgumentException e) { // TODO: should we let it bubble (no catch), to avoid defensive programming and follow the fail-fast principle?
             log.error("Token validation error {}", e.getMessage());
         }
