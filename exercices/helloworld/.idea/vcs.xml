@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../7688581-Expert-Git-GitHub" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../ANGULAR/Angular/snapface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../ANGULAR/e-commerce-backend-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../ANGULAR/e-commerce-frontend-angular" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/jdbc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/learning-git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/login-registration-backend" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/microservices" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/rest-api-go-lambda" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/spring-boot-essentials" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/spring-boot-master-class-course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/spring-boot-react-fullstack" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Amigoscode/spring-boot-security-course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../JirAWS/java_map_example/Java-Map-Example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../LIVRES PROG/Clean-Code-Collection-Books" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../OLDarchijavajeespringboot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 10/OC-P10-Tickets-Bibliotheque" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 10/bibliothequep10 - Copie" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 10/bibliothequep10_ticket#1/backendApiBiblio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 10/bibliothequep10_ticket#1/frontendWebBiblio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 12/Projet12_AerodromesDeFrance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 12/example/OC-java-P12" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 12/jhpetclinic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 12/jhpetclinicangular" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 12/spring-boot-angular-14-crud-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 12_Aidez-la-communaut-en-tant-que-d-veloppeur-d-application-Java" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 6/escaladeOpenclassrooms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 6/escaladefriendsp6ocr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 6/escaladefriendsp6ocrOLD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 6/exemple_site_escalade/escaladeOpenclassrooms" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 6/exemple_site_escalade_2/eGrimpe" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 6/friendsEscalade" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/Mcommerce-partie1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/RestTemplate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/biblioBatch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/bibliothequeocp7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/bibliothequeocp7_v5fusion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/bibliothequeocp7v4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/bibliothequep7ocexample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/bibliothequep7ocrOLD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/cours_mircoservice/mcommerce" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/davidmiller/startbootstrap-sb-admin-2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/example/spring-boot-data-jpa-mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/ffdc-sample-springboot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/niagalves/adminLight-template" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/P9_Ressource" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/Projet_7_OC_DA_Java_J2EE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/Projet_8_OC_DA_Java_J2EE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/Projet_9_OC_DA_Java_J2EE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/Spring_Batch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/Spring_MVC_V2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/rico_example/projet_10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/spring-samples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 7/springboot-starterkit-mysql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/Dossiers-CT-CF-E-PVL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/OCPizza-Projet8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/OCPizza_Conception_technique" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/OC_PIZZA_P8" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/OC_projet_8_Oc_pizza" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/P6_P7_P8_Documentation_OCPIZZA" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/Projet-8-OC_Pizza" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/Projet-8-Oc-Pizza" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/projet8-ocpizza" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 8/projet8_OCpizza" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Cours Openclassrooms/QCM/oc-testing-java-cours" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Cours Openclassrooms/oc-testing-java-cours" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Cours Openclassrooms/oc_test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/OC-P9-Tests" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/P9" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Projet9OC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Projet9OC2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Projet9_OC" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/Projet9_testezVosDeveloppementsJavaOLD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/TEST_OC_P9" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/myerp09" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/myerp9" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/ocp9-projetB4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/projet-9" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet 9/test_automatise" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet12_AerodromesDeFrance" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet7_biblio/OC_Bibliotheque_P10Full" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet8_OCPizza" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Projet_12_API" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../SPRING SECURITY/RomanianCoderExamples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../SPRING SECURITY/Spring-oauth2-jpa-exxample/Spring-oauth2-jpa-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../SPRING SECURITY/Spring_security_example/Java_Spring_2019" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../SPRING SECURITY/spring-basic-security" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Souleyamane_example_webapp_api/OC-P7-Bibliotheque" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Souleyamane_example_webapp_api/OC_Bibliotheque_P10Full" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Souleymane_demo_test/formationUsineLogicielle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Souleymane_demo_test/spring-boot-junit5-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Spring-Boot-Angular-8-CRUD-Example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TANDEM/LaRustine" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TUTO/JAVABRAINS/javabrains-website" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TUTO/JAVABRAINS/spring-boot-microservices-workshop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TUTO/JAVABRAINS/spring-boot-security" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TUTO/JAVABRAINS/spring-security-jwt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TUTO/LEANSTACKS/spring-security-fundamentals" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../TUTO/ROOT IN CODE/demo-spring-resttemplate-webclient" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/android-first-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/compte-micro-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/comptes-jpa-hibernate-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/e-commerce-backend-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/eboutique-jpa-hibernate-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/example-voting-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/image-gallery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/jpa-hibernate-spring-struts2-abonnements" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/micro-services-model" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/microservice-spring-mongo-sec-jwt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/simple-reinforcment-learning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/spring-boot-docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/spring-cloud-streams-functions-kafka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/spring-security-jwt-micro-service" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../YOUSSFI/test2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../api-client-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../code-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../fullprojet-de-gestions-de-stocks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../image-gallery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../simplifiez-le-developpement-dapplications-java-avec-spring/simplifiez-le-developpement-dapplications-java-avec-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../springmvcboot-image-gallery" vcs="Git" />
+  </component>
+</project>
